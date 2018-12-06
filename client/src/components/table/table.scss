@@ -1,0 +1,64 @@
+.table-header {
+  // Fixes table alignment for windows due to scrollbar always being shown
+  width: 98%;
+}
+
+.table-header,
+.table-body {
+  margin: 0px;
+
+  thead tr th {
+    border: none;
+    font-size: 18px;
+  }
+
+  td {
+    height: 55px;
+
+    &.no-results {
+      text-align: center;
+      font-weight: 900;
+    }
+  }
+
+  .order-description-col {
+    width: 50%;
+  }
+
+  .checkbox-col {
+    width: 10%;
+  }
+
+  .vendor-col,
+  .part-number-col {
+    width: 20%;
+  }
+
+  &.alternating-rows {
+      tbody {
+          tr {
+              &:hover {
+                cursor: pointer;
+              }
+
+              &:nth-child(2n+1) {
+                  background-color: $black11;
+              }
+
+              &:nth-child(2n) {
+                background-color: $white;
+              }
+
+              &:last-child {
+                border-bottom: 1px $black14 solid;
+              }
+            }
+      }
+  }
+}
+
+.scrollable-table {
+  flex: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

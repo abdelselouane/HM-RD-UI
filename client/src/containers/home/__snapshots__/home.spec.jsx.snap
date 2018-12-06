@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render properly 1`] = `
+<Connect(withContext(Page))
+  className="home"
+>
+  <styled.div
+    hideBoxShadow={true}
+  >
+    <TileContainer
+      tiles={
+        Array [
+          Object {
+            "className": "parts-search",
+            "icon": "search",
+            "tileFunction": [Function],
+            "title": "Parts Finder",
+          },
+          Object {
+            "className": "work-orders",
+            "icon": "toolbox",
+            "tileFunction": [Function],
+            "title": "Work Orders",
+          },
+          Object {
+            "className": "order-parts",
+            "icon": "tool-wrench",
+            "tileFunction": [Function],
+            "title": "Order Parts",
+          },
+          Object {
+            "className": "order-history",
+            "icon": "assignment",
+            "tileFunction": [Function],
+            "title": "Order History",
+          },
+          Object {
+            "className": "inventory",
+            "icon": "view-list",
+            "tileFunction": [Function],
+            "title": "Inventory",
+          },
+        ]
+      }
+    />
+  </styled.div>
+</Connect(withContext(Page))>
+`;

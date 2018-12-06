@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResults /> should render properly 1`] = `
+<div
+  className="order-parts-left search-results"
+>
+  <WorkOrderInput
+    onChange={[Function]}
+  />
+  <TextInputField
+    className="part-search"
+    containerRef={null}
+    icon={
+      Object {
+        "className": "icon_search part-search-icon",
+      }
+    }
+    id="searchInput"
+    onChange={[Function]}
+    setFocusOnMount={false}
+  />
+  <Table
+    className=""
+    clearOnHover={false}
+    columns={
+      Array [
+        Object {
+          "key": "partNbr",
+          "name": "Part Number",
+        },
+        Object {
+          "key": "partDescription",
+          "name": "Description",
+          "tdProps": Object {
+            "width": "50%",
+          },
+          "thProps": Object {
+            "width": "50%",
+          },
+        },
+        Object {
+          "key": "brandName",
+          "name": "Brand",
+        },
+      ]
+    }
+    handleRowClick={[Function]}
+    handleSortClick={[Function]}
+    isAlternating={true}
+    isExpandable={false}
+    rows={Array []}
+    showBody={false}
+    showCheckbox={true}
+    showHeader={false}
+    showResults={false}
+  />
+</div>
+`;

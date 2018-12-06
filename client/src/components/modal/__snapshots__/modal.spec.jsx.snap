@@ -1,0 +1,2120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> OrderParts Modals <ConfirmationModal /> should render properly 1`] = `
+.c0 .card-content {
+  overflow: hidden;
+}
+
+<ConfirmationModal
+  onPrimaryClick={[MockFunction]}
+  onSecondaryClick={[MockFunction]}
+>
+  <Modal
+    buttons={
+      Array [
+        Object {
+          "className": "grey",
+          "onClick": [Function],
+          "text": "No, Edit Order",
+        },
+        Object {
+          "className": "yellow-primary",
+          "onClick": [Function],
+          "text": "Yes",
+        },
+      ]
+    }
+    content={
+      Object {
+        "className": "",
+        "text": "Are you sure you would like to submit this parts order?",
+      }
+    }
+    styles={
+      Object {
+        "width": "50em",
+      }
+    }
+    title={
+      Object {
+        "className": "warning",
+        "icon": "warning-outlined",
+        "text": "Submit?",
+      }
+    }
+  >
+    <div
+      className="modal-container"
+    >
+      <styled.div
+        className="card modal"
+        style={
+          Object {
+            "width": "50em",
+          }
+        }
+      >
+        <div
+          className="card modal c0"
+          style={
+            Object {
+              "width": "50em",
+            }
+          }
+        >
+          <div
+            className="card-toolbar warning"
+          >
+            <i
+              className="icon_warning-outlined"
+            />
+            <span
+              className="card-title"
+            >
+              <h2>
+                Submit?
+              </h2>
+            </span>
+          </div>
+          <div
+            className="card-content "
+          >
+            <h2
+              className="text"
+            >
+              Are you sure you would like to submit this parts order?
+            </h2>
+          </div>
+          <div
+            className="card-footer buttons"
+          >
+            <button
+              className="button grey"
+              id="no-edit-order"
+              key="no-edit-order"
+              onClick={[Function]}
+            >
+              No, Edit Order
+            </button>
+            <button
+              className="button yellow-primary"
+              id="yes"
+              key="yes"
+              onClick={[Function]}
+            >
+              Yes
+            </button>
+          </div>
+        </div>
+      </styled.div>
+    </div>
+  </Modal>
+</ConfirmationModal>
+`;
+
+exports[`<Modal /> OrderParts Modals <FailureModal /> should render properly 1`] = `
+.c0 .card-content {
+  overflow: hidden;
+}
+
+<FailureModal
+  onPrimaryClick={[MockFunction]}
+  onSecondaryClick={[MockFunction]}
+>
+  <Modal
+    buttons={
+      Array [
+        Object {
+          "className": "red",
+          "onClick": [Function],
+          "text": "Return to Parts Cart",
+        },
+        Object {
+          "className": "red-primary",
+          "onClick": [Function],
+          "text": "Return to Homepage",
+        },
+      ]
+    }
+    content={
+      Object {
+        "className": "failure",
+        "text": "The system is currently down. We apologize for the inconvenience. Please try again later.",
+      }
+    }
+    styles={
+      Object {
+        "width": "50em",
+      }
+    }
+    title={
+      Object {
+        "className": "failure",
+        "icon": "ban",
+        "text": "Parts Order Submission Failed",
+      }
+    }
+  >
+    <div
+      className="modal-container"
+    >
+      <styled.div
+        className="card modal"
+        style={
+          Object {
+            "width": "50em",
+          }
+        }
+      >
+        <div
+          className="card modal c0"
+          style={
+            Object {
+              "width": "50em",
+            }
+          }
+        >
+          <div
+            className="card-toolbar failure"
+          >
+            <i
+              className="icon_ban"
+            />
+            <span
+              className="card-title"
+            >
+              <h2>
+                Parts Order Submission Failed
+              </h2>
+            </span>
+          </div>
+          <div
+            className="card-content failure"
+          >
+            <h2
+              className="text"
+            >
+              The system is currently down. We apologize for the inconvenience. Please try again later.
+            </h2>
+          </div>
+          <div
+            className="card-footer buttons"
+          >
+            <button
+              className="button red"
+              id="return-to-parts-cart"
+              key="return-to-parts-cart"
+              onClick={[Function]}
+            >
+              Return to Parts Cart
+            </button>
+            <button
+              className="button red-primary"
+              id="return-to-homepage"
+              key="return-to-homepage"
+              onClick={[Function]}
+            >
+              Return to Homepage
+            </button>
+          </div>
+        </div>
+      </styled.div>
+    </div>
+  </Modal>
+</FailureModal>
+`;
+
+exports[`<Modal /> OrderParts Modals <SuccessModal /> should render properly 1`] = `
+.c0 .card-content {
+  overflow: hidden;
+}
+
+<SuccessModal
+  onPrimaryClick={[MockFunction]}
+  onSecondaryClick={[MockFunction]}
+>
+  <Modal
+    buttons={
+      Array [
+        Object {
+          "className": "green",
+          "onClick": [Function],
+          "text": "View Order History",
+        },
+        Object {
+          "className": "green-primary",
+          "onClick": [Function],
+          "text": "Return to Homepage",
+        },
+      ]
+    }
+    content={
+      Object {
+        "className": "",
+        "text": "Parts Order has been successfully submitted",
+      }
+    }
+    styles={
+      Object {
+        "width": "50em",
+      }
+    }
+    title={
+      Object {
+        "className": "success",
+        "icon": "check-circle-filled",
+        "text": "Success!",
+      }
+    }
+  >
+    <div
+      className="modal-container"
+    >
+      <styled.div
+        className="card modal"
+        style={
+          Object {
+            "width": "50em",
+          }
+        }
+      >
+        <div
+          className="card modal c0"
+          style={
+            Object {
+              "width": "50em",
+            }
+          }
+        >
+          <div
+            className="card-toolbar success"
+          >
+            <i
+              className="icon_check-circle-filled"
+            />
+            <span
+              className="card-title"
+            >
+              <h2>
+                Success!
+              </h2>
+            </span>
+          </div>
+          <div
+            className="card-content "
+          >
+            <h2
+              className="text"
+            >
+              Parts Order has been successfully submitted
+            </h2>
+          </div>
+          <div
+            className="card-footer buttons"
+          >
+            <button
+              className="button green"
+              id="view-order-history"
+              key="view-order-history"
+              onClick={[Function]}
+            >
+              View Order History
+            </button>
+            <button
+              className="button green-primary"
+              id="return-to-homepage"
+              key="return-to-homepage"
+              onClick={[Function]}
+            >
+              Return to Homepage
+            </button>
+          </div>
+        </div>
+      </styled.div>
+    </div>
+  </Modal>
+</SuccessModal>
+`;
+
+exports[`<Modal /> ReceiveParts Modals <InfoModal /> should render properly 1`] = `
+.c0 .card-content {
+  overflow: hidden;
+}
+
+.c2 {
+  background-color: unset !important;
+}
+
+.c1 .scrollable-table {
+  overflow-y: hidden !important;
+}
+
+<InfoModal
+  columns={
+    Array [
+      Object {
+        "key": "partNbr",
+        "name": "Part Number",
+      },
+      Object {
+        "key": "partDescription",
+        "name": "Description",
+      },
+      Object {
+        "key": "location",
+        "name": "Location",
+      },
+      Object {
+        "key": "receivedQuantity",
+        "name": "Received Quantity",
+      },
+      Object {
+        "key": "receive",
+        "name": "Receiving",
+      },
+    ]
+  }
+  onPrimaryClick={[MockFunction]}
+  onSecondaryClick={[MockFunction]}
+  rows={
+    Array [
+      Object {
+        "brandName": "MAKITA",
+        "brandNbr": 1001,
+        "currentQuantityReceived": 0,
+        "key": "row-1",
+        "location": "A1",
+        "partDescription": "GASKET, TRANSMISSION",
+        "partLocation": "",
+        "partNbr": "310-0101",
+        "partsOrderDetailId": 1,
+        "previousQuantityReceived": 1,
+        "quantityOrdered": 1,
+        "receive": "",
+        "receivedQuantity": 1,
+      },
+      Object {
+        "brandName": "MAKITA",
+        "brandNbr": 1001,
+        "currentQuantityReceived": 0,
+        "key": "row-2",
+        "location": "A2",
+        "partDescription": "GASKET, TRANSMISSION-2",
+        "partLocation": "",
+        "partNbr": "310-0102",
+        "partsOrderDetailId": 2,
+        "previousQuantityReceived": 1,
+        "quantityOrdered": 10,
+        "receive": "",
+        "receivedQuantity": 2,
+      },
+    ]
+  }
+  selectedPurchaseOrderNbr="9710700001"
+>
+  <Modal
+    buttons={
+      Array [
+        Object {
+          "className": "md",
+          "onClick": [Function],
+          "text": "Cancel",
+        },
+        Object {
+          "className": "primary md",
+          "onClick": [Function],
+          "text": "Receive Part",
+        },
+      ]
+    }
+    content={
+      Object {
+        "body": <styled.div
+          className="body"
+        >
+          <Table
+            className=""
+            clearOnHover={false}
+            columns={
+              Array [
+                Object {
+                  "key": "partNbr",
+                  "name": "Part Number",
+                },
+                Object {
+                  "key": "partDescription",
+                  "name": "Description",
+                },
+                Object {
+                  "key": "location",
+                  "name": "Location",
+                },
+                Object {
+                  "key": "receivedQuantity",
+                  "name": "Received Quantity",
+                },
+                Object {
+                  "key": "receive",
+                  "name": "Receiving",
+                },
+              ]
+            }
+            handleRowClick={[Function]}
+            handleSortClick={[Function]}
+            isAlternating={false}
+            isExpandable={false}
+            rows={
+              Array [
+                Object {
+                  "brandName": "MAKITA",
+                  "brandNbr": 1001,
+                  "currentQuantityReceived": 0,
+                  "key": "row-1",
+                  "location": "A1",
+                  "partDescription": "GASKET, TRANSMISSION",
+                  "partLocation": "",
+                  "partNbr": "310-0101",
+                  "partsOrderDetailId": 1,
+                  "previousQuantityReceived": 1,
+                  "quantityOrdered": 1,
+                  "receive": "",
+                  "receivedQuantity": 1,
+                },
+                Object {
+                  "brandName": "MAKITA",
+                  "brandNbr": 1001,
+                  "currentQuantityReceived": 0,
+                  "key": "row-2",
+                  "location": "A2",
+                  "partDescription": "GASKET, TRANSMISSION-2",
+                  "partLocation": "",
+                  "partNbr": "310-0102",
+                  "partsOrderDetailId": 2,
+                  "previousQuantityReceived": 1,
+                  "quantityOrdered": 10,
+                  "receive": "",
+                  "receivedQuantity": 2,
+                },
+              ]
+            }
+            showBody={true}
+            showCheckbox={false}
+            showHeader={true}
+            showResults={true}
+          />
+        </styled.div>,
+        "className": "",
+        "text": "",
+      }
+    }
+    scrollable={false}
+    styles={
+      Object {
+        "width": "50%",
+      }
+    }
+    title={
+      Object {
+        "className": "info",
+        "closeModal": [Function],
+        "icon": "information-outlined",
+        "text": "PO #9710700001 Please select the quantity you would like to receive!",
+      }
+    }
+  >
+    <div
+      className="modal-container"
+    >
+      <styled.div
+        className="card modal"
+        scrollable={false}
+        style={
+          Object {
+            "width": "50%",
+          }
+        }
+      >
+        <div
+          className="card modal c0"
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <div
+            className="card-toolbar info"
+          >
+            <i
+              className="icon_information-outlined"
+            />
+            <span
+              className="card-title"
+            >
+              <h2>
+                PO #9710700001 Please select the quantity you would like to receive!
+              </h2>
+            </span>
+            <i
+              className="icon_close"
+              onClick={[Function]}
+            />
+          </div>
+          <div
+            className="card-content "
+          >
+            <styled.div
+              className="body"
+            >
+              <div
+                className="body c1"
+              >
+                <Table
+                  className=""
+                  clearOnHover={false}
+                  columns={
+                    Array [
+                      Object {
+                        "key": "partNbr",
+                        "name": "Part Number",
+                      },
+                      Object {
+                        "key": "partDescription",
+                        "name": "Description",
+                      },
+                      Object {
+                        "key": "location",
+                        "name": "Location",
+                      },
+                      Object {
+                        "key": "receivedQuantity",
+                        "name": "Received Quantity",
+                      },
+                      Object {
+                        "key": "receive",
+                        "name": "Receiving",
+                      },
+                    ]
+                  }
+                  handleRowClick={[Function]}
+                  handleSortClick={[Function]}
+                  isAlternating={false}
+                  isExpandable={false}
+                  rows={
+                    Array [
+                      Object {
+                        "brandName": "MAKITA",
+                        "brandNbr": 1001,
+                        "currentQuantityReceived": 0,
+                        "key": "row-1",
+                        "location": "A1",
+                        "partDescription": "GASKET, TRANSMISSION",
+                        "partLocation": "",
+                        "partNbr": "310-0101",
+                        "partsOrderDetailId": 1,
+                        "previousQuantityReceived": 1,
+                        "quantityOrdered": 1,
+                        "receive": "",
+                        "receivedQuantity": 1,
+                      },
+                      Object {
+                        "brandName": "MAKITA",
+                        "brandNbr": 1001,
+                        "currentQuantityReceived": 0,
+                        "key": "row-2",
+                        "location": "A2",
+                        "partDescription": "GASKET, TRANSMISSION-2",
+                        "partLocation": "",
+                        "partNbr": "310-0102",
+                        "partsOrderDetailId": 2,
+                        "previousQuantityReceived": 1,
+                        "quantityOrdered": 10,
+                        "receive": "",
+                        "receivedQuantity": 2,
+                      },
+                    ]
+                  }
+                  showBody={true}
+                  showCheckbox={false}
+                  showHeader={true}
+                  showResults={true}
+                >
+                  <styled.table
+                    className="standard-table table-header "
+                    clearOnHover={false}
+                    isAlternating={false}
+                    isExpandable={false}
+                    numColumns={5}
+                  >
+                    <table
+                      className="standard-table table-header  c2"
+                    >
+                      <thead>
+                        <tr>
+                          <styled.th
+                            className="part-number-col  "
+                            key="part-number"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="part-number-col   "
+                              onClick={[Function]}
+                            >
+                              Part Number
+                            </th>
+                          </styled.th>
+                          <styled.th
+                            className="description-col  "
+                            key="description"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="description-col   "
+                              onClick={[Function]}
+                            >
+                              Description
+                            </th>
+                          </styled.th>
+                          <styled.th
+                            className="location-col  "
+                            key="location"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="location-col   "
+                              onClick={[Function]}
+                            >
+                              Location
+                            </th>
+                          </styled.th>
+                          <styled.th
+                            className="received-quantity-col  "
+                            key="received-quantity"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="received-quantity-col   "
+                              onClick={[Function]}
+                            >
+                              Received Quantity
+                            </th>
+                          </styled.th>
+                          <styled.th
+                            className="receiving-col  "
+                            key="receiving"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="receiving-col   "
+                              onClick={[Function]}
+                            >
+                              Receiving
+                            </th>
+                          </styled.th>
+                        </tr>
+                      </thead>
+                    </table>
+                  </styled.table>
+                  <div
+                    className="scrollable-table"
+                    style={Object {}}
+                  >
+                    <styled.table
+                      className="standard-table table-body  "
+                      clearOnHover={false}
+                      isAlternating={false}
+                      isExpandable={false}
+                      numColumns={5}
+                    >
+                      <table
+                        className="standard-table table-body   c2"
+                      >
+                        <tbody>
+                          <TableRow
+                            columns={
+                              Array [
+                                Object {
+                                  "key": "partNbr",
+                                  "name": "Part Number",
+                                },
+                                Object {
+                                  "key": "partDescription",
+                                  "name": "Description",
+                                },
+                                Object {
+                                  "key": "location",
+                                  "name": "Location",
+                                },
+                                Object {
+                                  "key": "receivedQuantity",
+                                  "name": "Received Quantity",
+                                },
+                                Object {
+                                  "key": "receive",
+                                  "name": "Receiving",
+                                },
+                              ]
+                            }
+                            key="row row-1"
+                            onClick={[Function]}
+                            row={
+                              Object {
+                                "brandName": "MAKITA",
+                                "brandNbr": 1001,
+                                "currentQuantityReceived": 0,
+                                "key": "row-1",
+                                "location": "A1",
+                                "partDescription": "GASKET, TRANSMISSION",
+                                "partLocation": "",
+                                "partNbr": "310-0101",
+                                "partsOrderDetailId": 1,
+                                "previousQuantityReceived": 1,
+                                "quantityOrdered": 1,
+                                "receive": "",
+                                "receivedQuantity": 1,
+                              }
+                            }
+                            showCheckbox={false}
+                          >
+                            <tr
+                              onClick={[Function]}
+                            >
+                              <styled.td
+                                className="part-number-col"
+                                disableRow={false}
+                                key="row-1-part-number"
+                              >
+                                <td
+                                  className="part-number-col "
+                                >
+                                  310-0101
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="description-col"
+                                disableRow={false}
+                                key="row-1-description"
+                              >
+                                <td
+                                  className="description-col "
+                                >
+                                  GASKET, TRANSMISSION
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="location-col"
+                                disableRow={false}
+                                key="row-1-location"
+                              >
+                                <td
+                                  className="location-col "
+                                >
+                                  A1
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="received-quantity-col"
+                                disableRow={false}
+                                key="row-1-received-quantity"
+                              >
+                                <td
+                                  className="received-quantity-col "
+                                >
+                                  1
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="receiving-col"
+                                disableRow={false}
+                                key="row-1-receiving"
+                              >
+                                <td
+                                  className="receiving-col "
+                                />
+                              </styled.td>
+                            </tr>
+                          </TableRow>
+                          <TableRow
+                            columns={
+                              Array [
+                                Object {
+                                  "key": "partNbr",
+                                  "name": "Part Number",
+                                },
+                                Object {
+                                  "key": "partDescription",
+                                  "name": "Description",
+                                },
+                                Object {
+                                  "key": "location",
+                                  "name": "Location",
+                                },
+                                Object {
+                                  "key": "receivedQuantity",
+                                  "name": "Received Quantity",
+                                },
+                                Object {
+                                  "key": "receive",
+                                  "name": "Receiving",
+                                },
+                              ]
+                            }
+                            key="row row-2"
+                            onClick={[Function]}
+                            row={
+                              Object {
+                                "brandName": "MAKITA",
+                                "brandNbr": 1001,
+                                "currentQuantityReceived": 0,
+                                "key": "row-2",
+                                "location": "A2",
+                                "partDescription": "GASKET, TRANSMISSION-2",
+                                "partLocation": "",
+                                "partNbr": "310-0102",
+                                "partsOrderDetailId": 2,
+                                "previousQuantityReceived": 1,
+                                "quantityOrdered": 10,
+                                "receive": "",
+                                "receivedQuantity": 2,
+                              }
+                            }
+                            showCheckbox={false}
+                          >
+                            <tr
+                              onClick={[Function]}
+                            >
+                              <styled.td
+                                className="part-number-col"
+                                disableRow={false}
+                                key="row-2-part-number"
+                              >
+                                <td
+                                  className="part-number-col "
+                                >
+                                  310-0102
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="description-col"
+                                disableRow={false}
+                                key="row-2-description"
+                              >
+                                <td
+                                  className="description-col "
+                                >
+                                  GASKET, TRANSMISSION-2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="location-col"
+                                disableRow={false}
+                                key="row-2-location"
+                              >
+                                <td
+                                  className="location-col "
+                                >
+                                  A2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="received-quantity-col"
+                                disableRow={false}
+                                key="row-2-received-quantity"
+                              >
+                                <td
+                                  className="received-quantity-col "
+                                >
+                                  2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="receiving-col"
+                                disableRow={false}
+                                key="row-2-receiving"
+                              >
+                                <td
+                                  className="receiving-col "
+                                />
+                              </styled.td>
+                            </tr>
+                          </TableRow>
+                        </tbody>
+                      </table>
+                    </styled.table>
+                  </div>
+                </Table>
+              </div>
+            </styled.div>
+          </div>
+          <div
+            className="card-actions right"
+          >
+            <button
+              className="button md"
+              id="cancel"
+              key="cancel"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+            <button
+              className="button primary md"
+              id="receive-part"
+              key="receive-part"
+              onClick={[Function]}
+            >
+              Receive Part
+            </button>
+          </div>
+        </div>
+      </styled.div>
+    </div>
+  </Modal>
+</InfoModal>
+`;
+
+exports[`<Modal /> ReceiveParts Modals <InfoModal /> should render properly with 5 rows 1`] = `
+.c0 .card-content {
+  overflow-y: scroll;
+  height: 450px;
+}
+
+.c2 {
+  background-color: unset !important;
+}
+
+.c1 .scrollable-table {
+  overflow-y: hidden !important;
+}
+
+<InfoModal
+  columns={
+    Array [
+      Object {
+        "key": "partNbr",
+        "name": "Part Number",
+      },
+      Object {
+        "key": "partDescription",
+        "name": "Description",
+      },
+      Object {
+        "key": "location",
+        "name": "Location",
+      },
+      Object {
+        "key": "receivedQuantity",
+        "name": "Received Quantity",
+      },
+      Object {
+        "key": "receive",
+        "name": "Receiving",
+      },
+    ]
+  }
+  onPrimaryClick={[MockFunction]}
+  onSecondaryClick={[MockFunction]}
+  rows={
+    Array [
+      Object {
+        "brandName": "MAKITA",
+        "brandNbr": 1001,
+        "currentQuantityReceived": 0,
+        "key": "row-1",
+        "location": "A1",
+        "partDescription": "GASKET, TRANSMISSION",
+        "partLocation": "",
+        "partNbr": "310-0101",
+        "partsOrderDetailId": 1,
+        "previousQuantityReceived": 1,
+        "quantityOrdered": 1,
+        "receive": "",
+        "receivedQuantity": 1,
+      },
+      Object {
+        "brandName": "MAKITA",
+        "brandNbr": 1001,
+        "currentQuantityReceived": 0,
+        "key": "row-2",
+        "location": "A2",
+        "partDescription": "GASKET, TRANSMISSION-2",
+        "partLocation": "",
+        "partNbr": "310-0102",
+        "partsOrderDetailId": 2,
+        "previousQuantityReceived": 1,
+        "quantityOrdered": 10,
+        "receive": "",
+        "receivedQuantity": 2,
+      },
+      Object {
+        "brandName": "MAKITA",
+        "brandNbr": 1001,
+        "currentQuantityReceived": 0,
+        "key": "row-3",
+        "location": "A2",
+        "partDescription": "GASKET, TRANSMISSION-2",
+        "partLocation": "",
+        "partNbr": "310-0105",
+        "partsOrderDetailId": 2,
+        "previousQuantityReceived": 1,
+        "quantityOrdered": 10,
+        "receive": "",
+        "receivedQuantity": 2,
+      },
+      Object {
+        "brandName": "MAKITA",
+        "brandNbr": 1001,
+        "currentQuantityReceived": 0,
+        "key": "row-4",
+        "location": "A2",
+        "partDescription": "GASKET, TRANSMISSION-2",
+        "partLocation": "",
+        "partNbr": "310-0106",
+        "partsOrderDetailId": 2,
+        "previousQuantityReceived": 1,
+        "quantityOrdered": 10,
+        "receive": "",
+        "receivedQuantity": 2,
+      },
+      Object {
+        "brandName": "MAKITA",
+        "brandNbr": 1001,
+        "currentQuantityReceived": 0,
+        "key": "row-5",
+        "location": "A2",
+        "partDescription": "GASKET, TRANSMISSION-2",
+        "partLocation": "",
+        "partNbr": "310-0107",
+        "partsOrderDetailId": 2,
+        "previousQuantityReceived": 1,
+        "quantityOrdered": 10,
+        "receive": "",
+        "receivedQuantity": 2,
+      },
+    ]
+  }
+  selectedPurchaseOrderNbr="9710700001"
+>
+  <Modal
+    buttons={
+      Array [
+        Object {
+          "className": "md",
+          "onClick": [Function],
+          "text": "Cancel",
+        },
+        Object {
+          "className": "primary md",
+          "onClick": [Function],
+          "text": "Receive Part",
+        },
+      ]
+    }
+    content={
+      Object {
+        "body": <styled.div
+          className="body"
+        >
+          <Table
+            className=""
+            clearOnHover={false}
+            columns={
+              Array [
+                Object {
+                  "key": "partNbr",
+                  "name": "Part Number",
+                },
+                Object {
+                  "key": "partDescription",
+                  "name": "Description",
+                },
+                Object {
+                  "key": "location",
+                  "name": "Location",
+                },
+                Object {
+                  "key": "receivedQuantity",
+                  "name": "Received Quantity",
+                },
+                Object {
+                  "key": "receive",
+                  "name": "Receiving",
+                },
+              ]
+            }
+            handleRowClick={[Function]}
+            handleSortClick={[Function]}
+            isAlternating={false}
+            isExpandable={false}
+            rows={
+              Array [
+                Object {
+                  "brandName": "MAKITA",
+                  "brandNbr": 1001,
+                  "currentQuantityReceived": 0,
+                  "key": "row-1",
+                  "location": "A1",
+                  "partDescription": "GASKET, TRANSMISSION",
+                  "partLocation": "",
+                  "partNbr": "310-0101",
+                  "partsOrderDetailId": 1,
+                  "previousQuantityReceived": 1,
+                  "quantityOrdered": 1,
+                  "receive": "",
+                  "receivedQuantity": 1,
+                },
+                Object {
+                  "brandName": "MAKITA",
+                  "brandNbr": 1001,
+                  "currentQuantityReceived": 0,
+                  "key": "row-2",
+                  "location": "A2",
+                  "partDescription": "GASKET, TRANSMISSION-2",
+                  "partLocation": "",
+                  "partNbr": "310-0102",
+                  "partsOrderDetailId": 2,
+                  "previousQuantityReceived": 1,
+                  "quantityOrdered": 10,
+                  "receive": "",
+                  "receivedQuantity": 2,
+                },
+                Object {
+                  "brandName": "MAKITA",
+                  "brandNbr": 1001,
+                  "currentQuantityReceived": 0,
+                  "key": "row-3",
+                  "location": "A2",
+                  "partDescription": "GASKET, TRANSMISSION-2",
+                  "partLocation": "",
+                  "partNbr": "310-0105",
+                  "partsOrderDetailId": 2,
+                  "previousQuantityReceived": 1,
+                  "quantityOrdered": 10,
+                  "receive": "",
+                  "receivedQuantity": 2,
+                },
+                Object {
+                  "brandName": "MAKITA",
+                  "brandNbr": 1001,
+                  "currentQuantityReceived": 0,
+                  "key": "row-4",
+                  "location": "A2",
+                  "partDescription": "GASKET, TRANSMISSION-2",
+                  "partLocation": "",
+                  "partNbr": "310-0106",
+                  "partsOrderDetailId": 2,
+                  "previousQuantityReceived": 1,
+                  "quantityOrdered": 10,
+                  "receive": "",
+                  "receivedQuantity": 2,
+                },
+                Object {
+                  "brandName": "MAKITA",
+                  "brandNbr": 1001,
+                  "currentQuantityReceived": 0,
+                  "key": "row-5",
+                  "location": "A2",
+                  "partDescription": "GASKET, TRANSMISSION-2",
+                  "partLocation": "",
+                  "partNbr": "310-0107",
+                  "partsOrderDetailId": 2,
+                  "previousQuantityReceived": 1,
+                  "quantityOrdered": 10,
+                  "receive": "",
+                  "receivedQuantity": 2,
+                },
+              ]
+            }
+            showBody={true}
+            showCheckbox={false}
+            showHeader={true}
+            showResults={true}
+          />
+        </styled.div>,
+        "className": "",
+        "text": "",
+      }
+    }
+    scrollable={true}
+    styles={
+      Object {
+        "width": "50%",
+      }
+    }
+    title={
+      Object {
+        "className": "info",
+        "closeModal": [Function],
+        "icon": "information-outlined",
+        "text": "PO #9710700001 Please select the quantity you would like to receive!",
+      }
+    }
+  >
+    <div
+      className="modal-container"
+    >
+      <styled.div
+        className="card modal"
+        scrollable={true}
+        style={
+          Object {
+            "width": "50%",
+          }
+        }
+      >
+        <div
+          className="card modal c0"
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <div
+            className="card-toolbar info"
+          >
+            <i
+              className="icon_information-outlined"
+            />
+            <span
+              className="card-title"
+            >
+              <h2>
+                PO #9710700001 Please select the quantity you would like to receive!
+              </h2>
+            </span>
+            <i
+              className="icon_close"
+              onClick={[Function]}
+            />
+          </div>
+          <div
+            className="card-content "
+          >
+            <styled.div
+              className="body"
+            >
+              <div
+                className="body c1"
+              >
+                <Table
+                  className=""
+                  clearOnHover={false}
+                  columns={
+                    Array [
+                      Object {
+                        "key": "partNbr",
+                        "name": "Part Number",
+                      },
+                      Object {
+                        "key": "partDescription",
+                        "name": "Description",
+                      },
+                      Object {
+                        "key": "location",
+                        "name": "Location",
+                      },
+                      Object {
+                        "key": "receivedQuantity",
+                        "name": "Received Quantity",
+                      },
+                      Object {
+                        "key": "receive",
+                        "name": "Receiving",
+                      },
+                    ]
+                  }
+                  handleRowClick={[Function]}
+                  handleSortClick={[Function]}
+                  isAlternating={false}
+                  isExpandable={false}
+                  rows={
+                    Array [
+                      Object {
+                        "brandName": "MAKITA",
+                        "brandNbr": 1001,
+                        "currentQuantityReceived": 0,
+                        "key": "row-1",
+                        "location": "A1",
+                        "partDescription": "GASKET, TRANSMISSION",
+                        "partLocation": "",
+                        "partNbr": "310-0101",
+                        "partsOrderDetailId": 1,
+                        "previousQuantityReceived": 1,
+                        "quantityOrdered": 1,
+                        "receive": "",
+                        "receivedQuantity": 1,
+                      },
+                      Object {
+                        "brandName": "MAKITA",
+                        "brandNbr": 1001,
+                        "currentQuantityReceived": 0,
+                        "key": "row-2",
+                        "location": "A2",
+                        "partDescription": "GASKET, TRANSMISSION-2",
+                        "partLocation": "",
+                        "partNbr": "310-0102",
+                        "partsOrderDetailId": 2,
+                        "previousQuantityReceived": 1,
+                        "quantityOrdered": 10,
+                        "receive": "",
+                        "receivedQuantity": 2,
+                      },
+                      Object {
+                        "brandName": "MAKITA",
+                        "brandNbr": 1001,
+                        "currentQuantityReceived": 0,
+                        "key": "row-3",
+                        "location": "A2",
+                        "partDescription": "GASKET, TRANSMISSION-2",
+                        "partLocation": "",
+                        "partNbr": "310-0105",
+                        "partsOrderDetailId": 2,
+                        "previousQuantityReceived": 1,
+                        "quantityOrdered": 10,
+                        "receive": "",
+                        "receivedQuantity": 2,
+                      },
+                      Object {
+                        "brandName": "MAKITA",
+                        "brandNbr": 1001,
+                        "currentQuantityReceived": 0,
+                        "key": "row-4",
+                        "location": "A2",
+                        "partDescription": "GASKET, TRANSMISSION-2",
+                        "partLocation": "",
+                        "partNbr": "310-0106",
+                        "partsOrderDetailId": 2,
+                        "previousQuantityReceived": 1,
+                        "quantityOrdered": 10,
+                        "receive": "",
+                        "receivedQuantity": 2,
+                      },
+                      Object {
+                        "brandName": "MAKITA",
+                        "brandNbr": 1001,
+                        "currentQuantityReceived": 0,
+                        "key": "row-5",
+                        "location": "A2",
+                        "partDescription": "GASKET, TRANSMISSION-2",
+                        "partLocation": "",
+                        "partNbr": "310-0107",
+                        "partsOrderDetailId": 2,
+                        "previousQuantityReceived": 1,
+                        "quantityOrdered": 10,
+                        "receive": "",
+                        "receivedQuantity": 2,
+                      },
+                    ]
+                  }
+                  showBody={true}
+                  showCheckbox={false}
+                  showHeader={true}
+                  showResults={true}
+                >
+                  <styled.table
+                    className="standard-table table-header "
+                    clearOnHover={false}
+                    isAlternating={false}
+                    isExpandable={false}
+                    numColumns={5}
+                  >
+                    <table
+                      className="standard-table table-header  c2"
+                    >
+                      <thead>
+                        <tr>
+                          <styled.th
+                            className="part-number-col  "
+                            key="part-number"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="part-number-col   "
+                              onClick={[Function]}
+                            >
+                              Part Number
+                            </th>
+                          </styled.th>
+                          <styled.th
+                            className="description-col  "
+                            key="description"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="description-col   "
+                              onClick={[Function]}
+                            >
+                              Description
+                            </th>
+                          </styled.th>
+                          <styled.th
+                            className="location-col  "
+                            key="location"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="location-col   "
+                              onClick={[Function]}
+                            >
+                              Location
+                            </th>
+                          </styled.th>
+                          <styled.th
+                            className="received-quantity-col  "
+                            key="received-quantity"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="received-quantity-col   "
+                              onClick={[Function]}
+                            >
+                              Received Quantity
+                            </th>
+                          </styled.th>
+                          <styled.th
+                            className="receiving-col  "
+                            key="receiving"
+                            onClick={[Function]}
+                            thProps={Object {}}
+                          >
+                            <th
+                              className="receiving-col   "
+                              onClick={[Function]}
+                            >
+                              Receiving
+                            </th>
+                          </styled.th>
+                        </tr>
+                      </thead>
+                    </table>
+                  </styled.table>
+                  <div
+                    className="scrollable-table"
+                    style={Object {}}
+                  >
+                    <styled.table
+                      className="standard-table table-body  "
+                      clearOnHover={false}
+                      isAlternating={false}
+                      isExpandable={false}
+                      numColumns={5}
+                    >
+                      <table
+                        className="standard-table table-body   c2"
+                      >
+                        <tbody>
+                          <TableRow
+                            columns={
+                              Array [
+                                Object {
+                                  "key": "partNbr",
+                                  "name": "Part Number",
+                                },
+                                Object {
+                                  "key": "partDescription",
+                                  "name": "Description",
+                                },
+                                Object {
+                                  "key": "location",
+                                  "name": "Location",
+                                },
+                                Object {
+                                  "key": "receivedQuantity",
+                                  "name": "Received Quantity",
+                                },
+                                Object {
+                                  "key": "receive",
+                                  "name": "Receiving",
+                                },
+                              ]
+                            }
+                            key="row row-1"
+                            onClick={[Function]}
+                            row={
+                              Object {
+                                "brandName": "MAKITA",
+                                "brandNbr": 1001,
+                                "currentQuantityReceived": 0,
+                                "key": "row-1",
+                                "location": "A1",
+                                "partDescription": "GASKET, TRANSMISSION",
+                                "partLocation": "",
+                                "partNbr": "310-0101",
+                                "partsOrderDetailId": 1,
+                                "previousQuantityReceived": 1,
+                                "quantityOrdered": 1,
+                                "receive": "",
+                                "receivedQuantity": 1,
+                              }
+                            }
+                            showCheckbox={false}
+                          >
+                            <tr
+                              onClick={[Function]}
+                            >
+                              <styled.td
+                                className="part-number-col"
+                                disableRow={false}
+                                key="row-1-part-number"
+                              >
+                                <td
+                                  className="part-number-col "
+                                >
+                                  310-0101
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="description-col"
+                                disableRow={false}
+                                key="row-1-description"
+                              >
+                                <td
+                                  className="description-col "
+                                >
+                                  GASKET, TRANSMISSION
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="location-col"
+                                disableRow={false}
+                                key="row-1-location"
+                              >
+                                <td
+                                  className="location-col "
+                                >
+                                  A1
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="received-quantity-col"
+                                disableRow={false}
+                                key="row-1-received-quantity"
+                              >
+                                <td
+                                  className="received-quantity-col "
+                                >
+                                  1
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="receiving-col"
+                                disableRow={false}
+                                key="row-1-receiving"
+                              >
+                                <td
+                                  className="receiving-col "
+                                />
+                              </styled.td>
+                            </tr>
+                          </TableRow>
+                          <TableRow
+                            columns={
+                              Array [
+                                Object {
+                                  "key": "partNbr",
+                                  "name": "Part Number",
+                                },
+                                Object {
+                                  "key": "partDescription",
+                                  "name": "Description",
+                                },
+                                Object {
+                                  "key": "location",
+                                  "name": "Location",
+                                },
+                                Object {
+                                  "key": "receivedQuantity",
+                                  "name": "Received Quantity",
+                                },
+                                Object {
+                                  "key": "receive",
+                                  "name": "Receiving",
+                                },
+                              ]
+                            }
+                            key="row row-2"
+                            onClick={[Function]}
+                            row={
+                              Object {
+                                "brandName": "MAKITA",
+                                "brandNbr": 1001,
+                                "currentQuantityReceived": 0,
+                                "key": "row-2",
+                                "location": "A2",
+                                "partDescription": "GASKET, TRANSMISSION-2",
+                                "partLocation": "",
+                                "partNbr": "310-0102",
+                                "partsOrderDetailId": 2,
+                                "previousQuantityReceived": 1,
+                                "quantityOrdered": 10,
+                                "receive": "",
+                                "receivedQuantity": 2,
+                              }
+                            }
+                            showCheckbox={false}
+                          >
+                            <tr
+                              onClick={[Function]}
+                            >
+                              <styled.td
+                                className="part-number-col"
+                                disableRow={false}
+                                key="row-2-part-number"
+                              >
+                                <td
+                                  className="part-number-col "
+                                >
+                                  310-0102
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="description-col"
+                                disableRow={false}
+                                key="row-2-description"
+                              >
+                                <td
+                                  className="description-col "
+                                >
+                                  GASKET, TRANSMISSION-2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="location-col"
+                                disableRow={false}
+                                key="row-2-location"
+                              >
+                                <td
+                                  className="location-col "
+                                >
+                                  A2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="received-quantity-col"
+                                disableRow={false}
+                                key="row-2-received-quantity"
+                              >
+                                <td
+                                  className="received-quantity-col "
+                                >
+                                  2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="receiving-col"
+                                disableRow={false}
+                                key="row-2-receiving"
+                              >
+                                <td
+                                  className="receiving-col "
+                                />
+                              </styled.td>
+                            </tr>
+                          </TableRow>
+                          <TableRow
+                            columns={
+                              Array [
+                                Object {
+                                  "key": "partNbr",
+                                  "name": "Part Number",
+                                },
+                                Object {
+                                  "key": "partDescription",
+                                  "name": "Description",
+                                },
+                                Object {
+                                  "key": "location",
+                                  "name": "Location",
+                                },
+                                Object {
+                                  "key": "receivedQuantity",
+                                  "name": "Received Quantity",
+                                },
+                                Object {
+                                  "key": "receive",
+                                  "name": "Receiving",
+                                },
+                              ]
+                            }
+                            key="row row-3"
+                            onClick={[Function]}
+                            row={
+                              Object {
+                                "brandName": "MAKITA",
+                                "brandNbr": 1001,
+                                "currentQuantityReceived": 0,
+                                "key": "row-3",
+                                "location": "A2",
+                                "partDescription": "GASKET, TRANSMISSION-2",
+                                "partLocation": "",
+                                "partNbr": "310-0105",
+                                "partsOrderDetailId": 2,
+                                "previousQuantityReceived": 1,
+                                "quantityOrdered": 10,
+                                "receive": "",
+                                "receivedQuantity": 2,
+                              }
+                            }
+                            showCheckbox={false}
+                          >
+                            <tr
+                              onClick={[Function]}
+                            >
+                              <styled.td
+                                className="part-number-col"
+                                disableRow={false}
+                                key="row-3-part-number"
+                              >
+                                <td
+                                  className="part-number-col "
+                                >
+                                  310-0105
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="description-col"
+                                disableRow={false}
+                                key="row-3-description"
+                              >
+                                <td
+                                  className="description-col "
+                                >
+                                  GASKET, TRANSMISSION-2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="location-col"
+                                disableRow={false}
+                                key="row-3-location"
+                              >
+                                <td
+                                  className="location-col "
+                                >
+                                  A2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="received-quantity-col"
+                                disableRow={false}
+                                key="row-3-received-quantity"
+                              >
+                                <td
+                                  className="received-quantity-col "
+                                >
+                                  2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="receiving-col"
+                                disableRow={false}
+                                key="row-3-receiving"
+                              >
+                                <td
+                                  className="receiving-col "
+                                />
+                              </styled.td>
+                            </tr>
+                          </TableRow>
+                          <TableRow
+                            columns={
+                              Array [
+                                Object {
+                                  "key": "partNbr",
+                                  "name": "Part Number",
+                                },
+                                Object {
+                                  "key": "partDescription",
+                                  "name": "Description",
+                                },
+                                Object {
+                                  "key": "location",
+                                  "name": "Location",
+                                },
+                                Object {
+                                  "key": "receivedQuantity",
+                                  "name": "Received Quantity",
+                                },
+                                Object {
+                                  "key": "receive",
+                                  "name": "Receiving",
+                                },
+                              ]
+                            }
+                            key="row row-4"
+                            onClick={[Function]}
+                            row={
+                              Object {
+                                "brandName": "MAKITA",
+                                "brandNbr": 1001,
+                                "currentQuantityReceived": 0,
+                                "key": "row-4",
+                                "location": "A2",
+                                "partDescription": "GASKET, TRANSMISSION-2",
+                                "partLocation": "",
+                                "partNbr": "310-0106",
+                                "partsOrderDetailId": 2,
+                                "previousQuantityReceived": 1,
+                                "quantityOrdered": 10,
+                                "receive": "",
+                                "receivedQuantity": 2,
+                              }
+                            }
+                            showCheckbox={false}
+                          >
+                            <tr
+                              onClick={[Function]}
+                            >
+                              <styled.td
+                                className="part-number-col"
+                                disableRow={false}
+                                key="row-4-part-number"
+                              >
+                                <td
+                                  className="part-number-col "
+                                >
+                                  310-0106
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="description-col"
+                                disableRow={false}
+                                key="row-4-description"
+                              >
+                                <td
+                                  className="description-col "
+                                >
+                                  GASKET, TRANSMISSION-2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="location-col"
+                                disableRow={false}
+                                key="row-4-location"
+                              >
+                                <td
+                                  className="location-col "
+                                >
+                                  A2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="received-quantity-col"
+                                disableRow={false}
+                                key="row-4-received-quantity"
+                              >
+                                <td
+                                  className="received-quantity-col "
+                                >
+                                  2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="receiving-col"
+                                disableRow={false}
+                                key="row-4-receiving"
+                              >
+                                <td
+                                  className="receiving-col "
+                                />
+                              </styled.td>
+                            </tr>
+                          </TableRow>
+                          <TableRow
+                            columns={
+                              Array [
+                                Object {
+                                  "key": "partNbr",
+                                  "name": "Part Number",
+                                },
+                                Object {
+                                  "key": "partDescription",
+                                  "name": "Description",
+                                },
+                                Object {
+                                  "key": "location",
+                                  "name": "Location",
+                                },
+                                Object {
+                                  "key": "receivedQuantity",
+                                  "name": "Received Quantity",
+                                },
+                                Object {
+                                  "key": "receive",
+                                  "name": "Receiving",
+                                },
+                              ]
+                            }
+                            key="row row-5"
+                            onClick={[Function]}
+                            row={
+                              Object {
+                                "brandName": "MAKITA",
+                                "brandNbr": 1001,
+                                "currentQuantityReceived": 0,
+                                "key": "row-5",
+                                "location": "A2",
+                                "partDescription": "GASKET, TRANSMISSION-2",
+                                "partLocation": "",
+                                "partNbr": "310-0107",
+                                "partsOrderDetailId": 2,
+                                "previousQuantityReceived": 1,
+                                "quantityOrdered": 10,
+                                "receive": "",
+                                "receivedQuantity": 2,
+                              }
+                            }
+                            showCheckbox={false}
+                          >
+                            <tr
+                              onClick={[Function]}
+                            >
+                              <styled.td
+                                className="part-number-col"
+                                disableRow={false}
+                                key="row-5-part-number"
+                              >
+                                <td
+                                  className="part-number-col "
+                                >
+                                  310-0107
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="description-col"
+                                disableRow={false}
+                                key="row-5-description"
+                              >
+                                <td
+                                  className="description-col "
+                                >
+                                  GASKET, TRANSMISSION-2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="location-col"
+                                disableRow={false}
+                                key="row-5-location"
+                              >
+                                <td
+                                  className="location-col "
+                                >
+                                  A2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="received-quantity-col"
+                                disableRow={false}
+                                key="row-5-received-quantity"
+                              >
+                                <td
+                                  className="received-quantity-col "
+                                >
+                                  2
+                                </td>
+                              </styled.td>
+                              <styled.td
+                                className="receiving-col"
+                                disableRow={false}
+                                key="row-5-receiving"
+                              >
+                                <td
+                                  className="receiving-col "
+                                />
+                              </styled.td>
+                            </tr>
+                          </TableRow>
+                        </tbody>
+                      </table>
+                    </styled.table>
+                  </div>
+                </Table>
+              </div>
+            </styled.div>
+          </div>
+          <div
+            className="card-actions right"
+          >
+            <button
+              className="button md"
+              id="cancel"
+              key="cancel"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+            <button
+              className="button primary md"
+              id="receive-part"
+              key="receive-part"
+              onClick={[Function]}
+            >
+              Receive Part
+            </button>
+          </div>
+        </div>
+      </styled.div>
+    </div>
+  </Modal>
+</InfoModal>
+`;
+
+exports[`<Modal /> should render properly 1`] = `
+<div
+  className="modal-container"
+>
+  <styled.div
+    className="card modal"
+    style={
+      Object {
+        "width": "50em",
+      }
+    }
+  >
+    <div
+      className="card-toolbar mockClassNameTitle"
+    >
+      <i
+        className="icon_mockIcon"
+      />
+      <span
+        className="card-title"
+      >
+        <h2>
+          mockTitle
+        </h2>
+      </span>
+    </div>
+    <div
+      className="card-content mockClassNameContent"
+    >
+      <h2
+        className="text"
+      >
+        mockContent
+      </h2>
+    </div>
+    <div
+      className="card-footer buttons"
+    >
+      <button
+        className="button mockClassNameButton"
+        id="mock-button"
+        key="mock-button"
+        onClick={[MockFunction]}
+      >
+        mockButton
+      </button>
+    </div>
+  </styled.div>
+</div>
+`;

@@ -1,0 +1,23 @@
+.banner{
+  margin-top: 70px;
+  margin-left: 0px;
+  position: fixed;
+  width: 100%;
+  transition: 0.25s all ease-in-out;
+
+  &.open {
+    height: 45px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &.closed {
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .close{
+    top: 10px;
+  }
+}

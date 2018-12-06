@@ -1,0 +1,54 @@
+.order-parts-left {
+  border-right: solid 1px $black14;
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  padding-top: 20px;
+
+  .work-order-number-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    font-size: 0.9em;
+
+    .work-order-number-input {
+      border: solid 1px $black14;
+      font-size: 0.9em;
+      padding: 0.4em;
+      width: 20em;
+    }
+  }
+
+  .text-input-container.part-search {
+    margin-bottom: 0em;
+
+    input.part-search {
+      background: $white;
+      border-left: none;
+      border-radius: 0;
+      border-right: none;
+      font-size: 1em;
+      margin-top: 0em;
+      padding-left: 4em;
+    }
+
+    .icon_search.part-search-icon{
+      color: $orange;
+      font-size: 2em;
+      left: 0;
+      padding-left: 0.5em;
+      padding-top: 0.2em;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+}
+
+.loading-container {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}

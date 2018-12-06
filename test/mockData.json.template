@@ -1,0 +1,394 @@
+{
+  "parts": [
+    {
+      "partNbr": "BC1300",
+      "partDescription": "SHOE",
+      "ediFlag":"Y",
+      "brandName": "BLACK &amp; DECKER (US) INC.",
+      "brandNbr": 12
+    },
+    {
+      "partNbr": "MRCS",
+      "partDescription": "MRCS CUTTER SET FOR MINI-ROOTER",
+      "ediFlag":"N",
+      "brandName": "GENERAL WIRE SPRING  CO",
+      "brandNbr": 1034
+    },
+    {
+      "partNbr": "310-0081",
+      "partDescription": "ASSEMBLY, CABLE, THROTTLE",
+      "ediFlag":"Y",
+      "brandName": "GENERAL EQUIPMENT COMPANY",
+      "brandNbr": 56
+    },
+    {
+      "partNbr": "310-0101",
+      "partDescription": "GASKET, TRANSMISSION",
+      "ediFlag":"N",
+      "brandName": "GENERAL EQUIPMENT COMPANY",
+      "brandNbr": 56
+    },
+    {
+      "partNbr": "330-0070",
+      "partDescription": "Grip, Handle",
+      "ediFlag":"Y",
+      "brandName": "GENERAL EQUIPMENT COMPANY",
+      "brandNbr": 56
+    },
+    {
+      "partNbr":"71352031",
+      "partDescription":"BLADE GAUGE",
+      "ediFlag":"Y",
+      "brandNbr":1001,
+      "brandName":"MAKITA"
+    }
+  ],
+  "users": [
+    {
+      "id": "asm001",
+      "username": "asm001",
+      "meta": {
+        "dn": "cn=ASSISTANT MANAGER+uid=ASM001, ou=st9100, o=homedepot.com, c=US",
+        "cn": "ASSISTANT MANAGER+uid=ASM001"
+      },
+      "last_login": "2017-11-06T16:31:43Z",
+      "name": "001, ASM",
+      "first_name": "ASM",
+      "last_name": "001",
+      "title": "ASM",
+      "groups": [
+        {
+          "cn": "Repair Depot Admin",
+          "dn": "cn=Repair Depot Admin, ou=st9100, o=homedepot.com, c=US"
+        },
+        {
+          "dn": "cn=GC-CARDMGMT, ou=st9100, o=homedepot.com, c=US",
+          "cn": "GC-CARDMGMT"
+        },
+        {
+          "dn": "cn=CDA HDCOM FRAUD, ou=st9100, o=homedepot.com, c=US",
+          "cn": "CDA HDCOM FRAUD"
+        },
+        {
+          "dn": "cn=2020_PUBLISH_ADMIN, ou=st9100, o=homedepot.com, c=US",
+          "cn": "2020_PUBLISH_ADMIN"
+        },
+        {
+          "dn": "cn=Risk360_APS, ou=st9100, o=homedepot.com, c=US",
+          "cn": "Risk360_APS"
+        },
+        {
+          "dn": "cn=MET STORE TASK LIST ASSIGNER, ou=st9100, o=homedepot.com, c=US",
+          "cn": "MET STORE TASK LIST ASSIGNER"
+        },
+        {
+          "dn": "cn=MYPROJ_MOD, ou=st9100, o=homedepot.com, c=US",
+          "cn": "MYPROJ_MOD"
+        },
+        {
+          "dn": "cn=IPR IOM Manager, ou=st9100, o=homedepot.com, c=US",
+          "cn": "IPR IOM Manager"
+        },
+        {
+          "dn": "cn=FIRST Phone Platform Admin, ou=st9100, o=homedepot.com, c=US",
+          "cn": "FIRST Phone Platform Admin"
+        },
+        {
+          "dn": "cn=MET STORE ADMIN USER, ou=st9100, o=homedepot.com, c=US",
+          "cn": "MET STORE ADMIN USER"
+        },
+        {
+          "dn": "cn=MYPROJ_STORE, ou=st9100, o=homedepot.com, c=US",
+          "cn": "MYPROJ_STORE"
+        },
+        {
+          "dn": "cn=SVS Worklist Maint Admin, ou=st9100, o=homedepot.com, c=US",
+          "cn": "SVS Worklist Maint Admin"
+        },
+        {
+          "dn": "cn=SVS Worklist Maint Access, ou=st9100, o=homedepot.com, c=US",
+          "cn": "SVS Worklist Maint Access"
+        },
+        {
+          "dn": "cn=DC5078 Warehouse Users, ou=st9100, o=homedepot.com, c=US",
+          "cn": "DC5078 Warehouse Users"
+        },
+        {
+          "dn": "cn=D93 Receiving, ou=st9100, o=homedepot.com, c=US",
+          "cn": "D93 Receiving"
+        },
+        {
+          "dn": "cn=SA PT SPOS Corp Users, ou=st9100, o=homedepot.com, c=US",
+          "cn": "SA PT SPOS Corp Users"
+        },
+        {
+          "dn": "cn=CB PQO1 Service Client, ou=st9100, o=homedepot.com, c=US",
+          "cn": "CB PQO1 Service Client"
+        },
+        {
+          "dn": "cn=COM Parameter Mgmt User, ou=st9100, o=homedepot.com, c=US",
+          "cn": "COM Parameter Mgmt User"
+        },
+        {
+          "dn": "cn=HR Salaried Associate, ou=st9100, o=homedepot.com, c=US",
+          "cn": "HR Salaried Associate"
+        },
+        {
+          "dn": "cn=PT POMS MGR, ou=st9100, o=homedepot.com, c=us",
+          "cn": "PT POMS MGR"
+        },
+        {
+          "dn": "cn=IMS Supervisor User Store, ou=st9100, o=homedepot.com, c=us",
+          "cn": "IMS Supervisor User Store"
+        },
+        {
+          "dn": "cn=DC9905 Warehouse Users, ou=st9100, o=homedepot.com, c=US",
+          "cn": "DC9905 Warehouse Users"
+        },
+        {
+          "dn": "cn=SOLR Admin, ou=st9100, o=homedepot.com, c=US",
+          "cn": "SOLR Admin"
+        },
+        {
+          "dn": "cn=COM Administrator, ou=st9100, o=homedepot.com, c=US",
+          "cn": "COM Administrator"
+        },
+        {
+          "dn": "cn=myPlanner Store User, ou=st9100, o=homedepot.com, c=US",
+          "cn": "myPlanner Store User"
+        },
+        {
+          "dn": "cn=COM WEB Services, ou=st9100, o=homedepot.com, c=US",
+          "cn": "COM WEB Services"
+        },
+        {
+          "dn": "cn=First Phone Remote Admin, ou=st9100, o=homedepot.com, c=US",
+          "cn": "First Phone Remote Admin"
+        },
+        {
+          "dn": "cn=IMS Manager User Store,ou=st9100,o=homedepot.com,c=US",
+          "cn": "IMS Manager User Store"
+        },
+        {
+          "dn": "cn=Lexmark Helpdesk, ou=st9100, o=homedepot.com, c=US",
+          "cn": "Lexmark Helpdesk"
+        },
+        {
+          "dn": "cn=IMS VNDR NON ORDERING USER, ou=st9100, o=homedepot.com, c=US",
+          "cn": "IMS VNDR NON ORDERING USER"
+        },
+        {
+          "dn": "cn=IMS brandName USER, ou=st9100, o=homedepot.com, c=US",
+          "cn": "IMS brandName USER"
+        },
+        {
+          "dn": "cn=Vault Balance Store Manager, ou=st9100, o=homedepot.com, c=US",
+          "cn": "Vault Balance Store Manager"
+        },
+        {
+          "dn": "cn=IMS SUPERVISOR USER, ou=st9100, o=homedepot.com, c=US",
+          "cn": "IMS SUPERVISOR USER"
+        },
+        {
+          "dn": "cn=IMS STORE USER, ou=st9100, o=homedepot.com, c=US",
+          "cn": "IMS STORE USER"
+        },
+        {
+          "dn": "cn=IMS SUPPORT USER, ou=st9100, o=homedepot.com, c=US",
+          "cn": "IMS SUPPORT USER"
+        },
+        {
+          "dn": "cn=IMS USER, ou=st9100, o=homedepot.com, c=US",
+          "cn": "IMS USER"
+        },
+        {
+          "dn": "cn=BPM IPR Managers, ou=st9100, o=homedepot.com, c=US",
+          "cn": "BPM IPR Managers"
+        },
+        {
+          "dn": "cn=CF Utility Edit User, ou=st9100, o=homedepot.com, c=US",
+          "cn": "CF Utility Edit User"
+        },
+        {
+          "dn": "cn=Vault Balance Sys Manager, ou=st9100, o=homedepot.com, c=US",
+          "cn": "Vault Balance Sys Manager"
+        },
+        {
+          "dn": "cn=Doc Viewer Store User, ou=st9100, o=homedepot.com, c=US",
+          "cn": "Doc Viewer Store User"
+        },
+        {
+          "dn": "cn=ADMS CA Store Users, ou=st9100, o=homedepot.com, c=US",
+          "cn": "ADMS CA Store Users"
+        },
+        {
+          "dn": "cn=ADMS CA Delivery Agents, ou=st9100, o=homedepot.com, c=US",
+          "cn": "ADMS CA Delivery Agents"
+        },
+        {
+          "dn": "cn=SV FastKit Support, ou=st9100, o=homedepot.com, c=US",
+          "cn": "SV FastKit Support"
+        },
+        {
+          "dn": "cn=SV ProviderNet Support, ou=st9100, o=homedepot.com, c=US",
+          "cn": "SV ProviderNet Support"
+        },
+        {
+          "dn": "cn=CR Admin, ou=st9100, o=homedepot.com, c=US",
+          "cn": "CR Admin"
+        },
+        {
+          "dn": "cn=Call Box Corporate User,ou=st9100,o=homedepot.com,c=US",
+          "cn": "Call Box Corporate User"
+        },
+        {
+          "dn": "cn=AA Portal Admin, ou=st9100, o=homedepot.com, c=US",
+          "cn": "AA Portal Admin"
+        },
+        {
+          "dn": "cn=HR ASM, ou=st9100, o=homedepot.com, c=US",
+          "cn": "HR ASM"
+        },
+        {
+          "dn": "cn=AA HD Guardian User, ou=st9100, o=homedepot.com, c=US",
+          "cn": "AA HD Guardian User"
+        },
+        {
+          "dn": "cn=All Store Associates,ou=st9100,o=homedepot.com,c=US",
+          "cn": "All Store Associates"
+        },
+        {
+          "dn": "cn=SA Contract Viewer, ou=st9100, o=homedepot.com, c=US",
+          "cn": "SA Contract Viewer"
+        },
+        {
+          "dn": "cn=Rental Managers, ou=st9100, o=homedepot.com, c=US",
+          "cn": "Rental Managers"
+        },
+        {
+          "dn": "cn=Rental Users, ou=st9100, o=homedepot.com, c=US",
+          "cn": "Rental Users"
+        },
+        {
+          "dn": "cn=DESK GROUP, ou=st9100, o=homedepot.com, c=US",
+          "cn": "DESK GROUP"
+        },
+        {
+          "dn": "CN=GG_BI_MSTR_LEADS,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+          "cn": "GG_BI_MSTR_LEADS"
+        },
+        {
+          "dn": "CN=GG_SCM_Access,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+          "cn": "GG_SCM_Access"
+        },
+        {
+          "dn": "CN=GG_CTX_MYCD_CORP,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+          "cn": "GG_CTX_MYCD_CORP"
+        },
+        {
+          "dn": "CN=gg_ctx_mycustomdesigns_admins,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+          "cn": "gg_ctx_mycustomdesigns_admins"
+        },
+        {
+          "dn": "CN=asm9705,OU=Store,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+          "cn": "asm9705"
+        },
+        {
+          "dn": "CN=gg_store_mythdapps,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+          "cn": "gg_store_mythdapps"
+        }
+      ],
+      "department": 0,
+      "manager": {
+        "links": {
+          "rel": "",
+          "href": ""
+        }
+      },
+      "direct_reports": [],
+      "links": {
+        "rel": "self",
+        "href": "/users/ASM001"
+      }
+    }
+  ],
+  "storedInventory": [
+    {
+      "storeNbr":"9710",
+      "partNbr":"71352031",
+      "partDescription":"BLADE GAUGE",
+      "brandNbr":1001,
+      "brandName":"MAKITA",
+      "location":"B5",
+      "availableQuantity":45,
+      "allocatedQuantity":4,
+      "id": 1
+    },
+    {
+      "storeNbr":"9710",
+      "partNbr": "MRCS",
+      "partDescription": "MRCS CUTTER SET FOR MINI-ROOTER",
+      "brandName": "GENERAL WIRE SPRING  CO",
+      "brandNbr": 1034,
+      "location":"A1",
+      "availableQuantity":2,
+      "allocatedQuantity":1,
+      "id": 2
+    }
+  ],
+  "storedPartsOrders": [
+    {
+      "orderCreatedDate": "2018-06-04",
+      "workOrderNbr": "",
+      "partsOrderId": 8714639265,
+      "locationNbr": "9710",
+      "partsDetails": [
+        {
+          "partNbr": "310-0101",
+          "quantity": 1,
+          "partDescription": "GASKET, TRANSMISSION",
+          "brandName": "GENERAL EQUIPMENT COMPANY",
+          "purchaseOrderStatDesc": "SUBMITTED",
+          "purchaseOrderNbr": "971072952"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "storedOpenPurchaseOrders": [
+    {
+      "orderCreatedDate": "2018-06-04",
+      "workOrderNbr": "",
+      "locationNbr": "9710",
+      "purchaseOrderStatDesc": "SUBMITTED",
+      "purchaseOrderNbr": "971072952",
+      "partsDetails": [
+        {
+          "partNbr": "310-0101",
+          "quantityOrdered": 2,
+          "partDescription": "GASKET, TRANSMISSION",
+          "partsOrderDetailId": 1,
+          "previousQuantityReceived": 1,
+          "currentQuantityReceived": 0
+        }
+      ]
+    },
+    {
+      "orderCreatedDate": "2018-07-14",
+      "workOrderNbr": "Test",
+      "locationNbr": "9710",
+      "purchaseOrderStatDesc": "SUBMITTED",
+      "purchaseOrderNbr": "971072953",
+      "partsDetails": [
+        {
+          "partNbr": "310-0103",
+          "quantityOrdered": 2,
+          "partDescription": "GASKET, TRANSMISSION",
+          "partsOrderDetailId": 1,
+          "previousQuantityReceived": 1,
+          "currentQuantityReceived": 0
+        }
+      ]
+    }
+  ]
+}

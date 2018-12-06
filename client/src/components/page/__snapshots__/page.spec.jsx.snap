@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Page /> should render properly 1`] = `
+<styled.div
+  className="test-page"
+  enableScroll={false}
+>
+  <Header
+    handleAdminClick={[Function]}
+    handleLogoClick={[Function]}
+    handleLogoutClick={[Function]}
+    showActions={true}
+    userProfile={
+      Object {
+        "id": "mockuser",
+      }
+    }
+  />
+  <Notification
+    className="mockNotifyClass"
+    details=""
+    icon="mockIcon"
+    isOpen={false}
+    onClick={[Function]}
+    title=""
+  />
+  <Connect(Breadcrumbs) />
+  <div />
+</styled.div>
+`;
+
+exports[`<Page /> should render styles properly 1`] = `
+.c0 {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 70px 48px 24px 24px repeat(3,1fr) repeat(1,72px);
+  grid-template-columns: 20px 1fr repeat(4,3fr) 1fr 20px;
+  grid-template-areas: ". . . . . . . ." ". . . . . . . ." ". . cmess cmess cmess cmess . ." ". . cmess cmess cmess cmess . ." ". . carea carea carea carea . ." ". . carea carea carea carea . ." ". . carea carea carea carea . ." ". . . . . . . .";
+}
+
+@media only screen and (max-width:1024px) {
+  .c0 {
+    display: grid;
+    grid-template-areas: ". . . . . . . ." ". . . . . . . ." ". cmess cmess cmess cmess cmess cmess ." ". cmess cmess cmess cmess cmess cmess ." ". carea carea carea carea carea carea ." ". carea carea carea carea carea carea ." ". carea carea carea carea carea carea ." ". . . . . . . .";
+    grid-template-rows: 70px 24px 24px 24px repeat(3,1fr) repeat(1,48px);
+    grid-template-columns: 10px 1fr repeat(4,3fr) 1fr 10px;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Page /> should render styles properly 2`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Page /> should render styles properly 3`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<div
+  className="c0"
+/>
+`;

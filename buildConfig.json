@@ -1,0 +1,80 @@
+{
+  "projectInfo": {
+    "name": "RepairDepot-UI",
+    "versionStrategy": "tracker",
+    "fmsNumber": "IT-08044",
+    "cdTemplate": "CD0001212",
+    "language": "js"
+  },
+  "artifactoryConfig": {
+    "artifactoryDomain":
+      "https://pcf-deploy.artifactory.homedepot.com/artifactory",
+    "artifactoryRepoKey": "pcf-deploy",
+    "artifactoryRepoKeySnapshot": "pcf-deploy",
+    "artifactoryGroup": "com/homedepot/repair/RepairDepot-UI",
+    "artifactType": "tar.gz"
+  },
+  "fortify": {
+    "foldersToScan": "client/src",
+    "emailList": "sudhakar_badri_narayanan@homedepot.com"
+  },
+  "tracker": {
+    "projectId": 2145592,
+    "url": "https://www.pivotaltracker.com/n/projects/2145592"
+  },
+  "github": {
+    "org": "Repairs",
+    "repo": "RepairDepot-UI",
+    "URL": "https://github.homedepot.com/api/v3/repos"
+  },
+  "environments": {
+    "develop": {
+      "cf": {
+        "apiEndpoint": "api.run-np.homedepot.com",
+        "domain": "apps-np.homedepot.com",
+        "space": "development",
+        "org": "repair"
+      },
+      "artifactCategory": "snapshot",
+      "associatedBranchName": "master",
+      "snowfield-lifecycle": "uat",
+      "createChange": "False"
+    },
+    "acceptance": {
+      "cf": {
+        "apiEndpoint": "api.run-np.homedepot.com",
+        "domain": "apps-np.homedepot.com",
+        "space": "acceptance",
+        "org": "repair"
+      },
+      "artifactCategory": "release",
+      "associatedBranchName": "master",
+      "snowfield-lifecycle": "uat",
+      "createChange": "False"
+    },
+    "feature": {
+      "cf": {
+        "apiEndpoint": "api.run-np.homedepot.com",
+        "domain": "apps-np.homedepot.com",
+        "space": "feature",
+        "org": "repair"
+      },
+      "artifactCategory": "snapshot",
+      "associatedBranchName": "partsAdmin",
+      "snowfield-lifecycle": "uat",
+      "createChange": "False"
+    },
+    "production": {
+      "cf": {
+        "apiEndpoint": "api.run-zb.homedepot.com",
+        "domain": "apps-zb.homedepot.com",
+        "space": "production",
+        "org": "repair"
+      },
+      "artifactCategory": "release",
+      "associatedBranchName": "master",
+      "snowfield-lifecycle": "pr",
+      "createChange": "True"
+    }
+  }
+}

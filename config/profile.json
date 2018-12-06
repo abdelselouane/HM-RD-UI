@@ -1,0 +1,185 @@
+{
+  "credentials": { 
+    "callingProgram": "RepairDepot-UI",
+     "j_storenumber": "9710",
+     "j_username": "asm001",
+     "j_password": "cWEwMlRlc3Qh" 
+    },
+   "userProfile": {
+     "id": "ASM001",
+     "meta": {
+       "dn": "cn=ASSISTANT MANAGER+uid=ASM001, ou=st9100, o=homedepot.com, c=US",
+       "cn": "ASSISTANT MANAGER+uid=ASM001"
+     },
+     "last_login": "2017-11-06T16:31:43Z",
+     "name": "001, ASM",
+     "first_name": "ASM",
+     "last_name": "001",
+     "title": "ASM",
+     "corp_location_number": 9100,
+     "location_number": 9100,
+     "location_type": "DIV",
+     "groups": [
+       {
+         "dn": "cn=Repair Depot Admin, ou=st9100, o=homedepot.com, c=US",
+         "cn": "Repair Depot Admin"
+       },
+       {
+         "dn": "cn=ORDERUP_FIELD, ou=st9100, o=homedepot.com, c=US",
+         "cn": "ORDERUP_FIELD"
+       },
+       {
+         "dn": "cn=IMS MET SUP, ou=st9100, o=homedepot.com, c=US",
+         "cn": "IMS MET SUP"
+       },
+       {
+         "dn": "cn=MET STORE ADMIN USER, ou=st9100, o=homedepot.com, c=US",
+         "cn": "MET STORE ADMIN USER"
+       },
+       {
+         "dn": "cn=HR Salaried Associate, ou=st9100, o=homedepot.com, c=US",
+         "cn": "HR Salaried Associate"
+       },
+       {
+         "dn": "cn=WH BI Store Ops Reporting, ou=st9100, o=homedepot.com, c=US",
+         "cn": "WH BI Store Ops Reporting"
+       },
+       {
+         "dn": "cn=SC Hazmat DC Support, ou=st9100, o=homedepot.com, c=US",
+         "cn": "SC Hazmat DC Support"
+       },
+       {
+         "dn": "cn=PLM Supplier, ou=st9100, o=homedepot.com, c=US",
+         "cn": "PLM Supplier"
+       },
+       {
+         "dn": "cn=Merchandising Base Tables, ou=st9100, o=homedepot.com, c=US",
+         "cn": "Merchandising Base Tables"
+       },
+       {
+         "dn": "cn=Merch IT Support, ou=st9100, o=homedepot.com, c=US",
+         "cn": "Merch IT Support"
+       },
+       {
+         "dn": "cn=HOT Functional User, ou=st9100, o=homedepot.com, c=US",
+         "cn": "HOT Functional User"
+       },
+       {
+         "dn": "cn=RT Hazmat Field, ou=st9100, o=homedepot.com, c=US",
+         "cn": "RT Hazmat Field"
+       },
+       {
+         "dn": "cn=SSC Bid Room Manager, ou=st9100, o=homedepot.com, c=US",
+         "cn": "SSC Bid Room Manager"
+       },
+       {
+         "dn": "cn=SSC Bid Room Associate, ou=st9100, o=homedepot.com, c=US",
+         "cn": "SSC Bid Room Associate"
+       },
+       {
+         "dn": "cn=Doc Viewer Corporate User, ou=st9100, o=homedepot.com, c=US",
+         "cn": "Doc Viewer Corporate User"
+       },
+       {
+         "dn": "cn=HR Store Hourly, ou=st9100, o=homedepot.com, c=US",
+         "cn": "HR Store Hourly"
+       },
+       {
+         "dn": "cn=RT Hazmat Associate, ou=st9100, o=homedepot.com, c=US",
+         "cn": "RT Hazmat Associate"
+       },
+       {
+         "dn": "cn=RT Hazmat Support, ou=st9100, o=homedepot.com, c=US",
+         "cn": "RT Hazmat Support"
+       },
+       {
+         "dn": "cn=RT Hazmat Corporate, ou=st9100, o=homedepot.com, c=US",
+         "cn": "RT Hazmat Corporate"
+       },
+       {
+         "dn": "cn=THD All LOBs, ou=st9100, o=homedepot.com, c=US",
+         "cn": "THD All LOBs"
+       },
+       {
+         "dn": "cn=Pro Bid Manager, ou=st9100, o=homedepot.com, c=US",
+         "cn": "Pro Bid Manager"
+       },
+       {
+         "dn": "cn=HR CPROF, ou=st9100, o=homedepot.com, c=US",
+         "cn": "HR CPROF"
+       },
+       {
+         "dn": "cn=HR Prof Hourly, ou=st9100, o=homedepot.com, c=US",
+         "cn": "HR Prof Hourly"
+       },
+       {
+         "dn": "cn=Tax Exempt Maint Users, ou=st9100, o=homedepot.com, c=US",
+         "cn": "Tax Exempt Maint Users"
+       },
+       {
+         "dn": "cn=CB Revenue Accounting, ou=st9100, o=homedepot.com, c=US",
+         "cn": "CB Revenue Accounting"
+       },
+       {
+         "dn": "cn=CB Store Vault User, ou=st9100, o=homedepot.com, c=US",
+         "cn": "CB Store Vault User"
+       },
+       {
+         "dn": "cn=CB Credit Accounting, ou=st9100, o=homedepot.com, c=US",
+         "cn": "CB Credit Accounting"
+       },
+       {
+         "dn": "cn=CB Credit RTS, ou=st9100, o=homedepot.com, c=US",
+         "cn": "CB Credit RTS"
+       },
+       {
+         "dn": "cn=HR Non-SSC Hourly, ou=st9100, o=homedepot.com, c=US",
+         "cn": "HR Non-SSC Hourly"
+       },
+       {
+         "dn": "cn=All Store Associates,ou=st9100,o=homedepot.com,c=US",
+         "cn": "All Store Associates"
+       },
+       {
+         "dn": "cn=SA Contract Viewer, ou=st9100, o=homedepot.com, c=US",
+         "cn": "SA Contract Viewer"
+       },
+       {
+         "dn": "CN=GG_BI_MSTR_LEADS,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+         "cn": "GG_BI_MSTR_LEADS"
+       },
+       {
+         "dn": "CN=GG_SCM_Access,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+         "cn": "GG_SCM_Access"
+       },
+       {
+         "dn": "CN=GG_CTX_MYCD_CORP,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+         "cn": "GG_CTX_MYCD_CORP"
+       },
+       {
+         "dn": "CN=gg_ctx_mycustomdesigns_admins,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+         "cn": "gg_ctx_mycustomdesigns_admins"
+       },
+       {
+         "dn": "CN=asm9705,OU=Store,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+         "cn": "asm9705"
+       },
+       {
+         "dn": "CN=gg_store_mythdapps,OU=Application Access Groups,OU=Groups,DC=amer,DC=qahomedepot,DC=com",
+         "cn": "gg_store_mythdapps"
+       }
+     ],
+     "department": 0,
+     "manager": {
+       "links": {
+         "rel": "",
+         "href": ""
+       }
+     },
+     "direct_reports": [],
+     "links": {
+       "rel": "self",
+       "href": "/users/ASM001"
+     }
+   }
+  }

@@ -1,0 +1,628 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageInventory /> should render properly 1`] = `
+<Fragment>
+  <div
+    className="search-container"
+  >
+    <TextInputField
+      className="search"
+      containerRef={null}
+      icon={
+        Object {
+          "className": "icon_search",
+        }
+      }
+      id="filterInput"
+      onChange={[Function]}
+      placeholder="Type to search for a part in inventory"
+      setFocusOnMount={false}
+    />
+    <button
+      className="manage-inv primary loader-btn"
+      onClick={[Function]}
+    >
+      Manually Add Inventory
+    </button>
+  </div>
+  <Table
+    className=""
+    clearOnHover={false}
+    columns={
+      Array [
+        Object {
+          "key": "partNbr",
+          "name": "Part Number",
+          "tdProps": Object {
+            "paddingLeft": "20px !important",
+          },
+          "thProps": Object {
+            "paddingLeft": "20px !important",
+          },
+        },
+        Object {
+          "key": "partDescription",
+          "name": "Description",
+          "tdProps": Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "30%",
+          },
+          "thProps": Object {
+            "width": "30%",
+          },
+          "useTitle": true,
+        },
+        Object {
+          "key": "brandName",
+          "name": "Brand",
+        },
+        Object {
+          "key": "totalQuantity",
+          "name": "Total",
+        },
+        Object {
+          "key": "allocatedQuantity",
+          "name": "Allocated",
+        },
+        Object {
+          "key": "availableQuantity",
+          "name": "Available",
+        },
+        Object {
+          "key": "location",
+          "name": "Location",
+        },
+        Object {
+          "key": "edit",
+          "name": "Edit",
+        },
+      ]
+    }
+    handleRowClick={[Function]}
+    handleSortClick={[Function]}
+    isAlternating={true}
+    isExpandable={false}
+    rows={
+      Array [
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "a1234",
+          "brandNbr": "1111",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A012",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 1",
+          "partNbr": "QZS-12-A012",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "xyz90",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "1KJA-1A2-91",
+          "location": "B7",
+          "partDescription": "THIS IS A TEST DESC 2",
+          "partNbr": "1KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "a1234",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A013",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 3",
+          "partNbr": "QZS-12-A013",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "1234",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "2KJA-1A2-91",
+          "location": "B7",
+          "partDescription": "THIS IS A TEST DESC 4",
+          "partNbr": "2KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "1234",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A014",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 5",
+          "partNbr": "QZS-12-A014",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "1234",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "3KJA-1A2-91",
+          "location": "B7",
+          "partDescription": "THIS IS A TEST DESC 6",
+          "partNbr": "3KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "xyz90",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A015",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 7",
+          "partNbr": "QZS-12-A015",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "xyz90",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "4KJA-1A2-91",
+          "location": "B7",
+          "partDescription": "THIS IS A TEST DESC 8",
+          "partNbr": "4KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "1234-1",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A016",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 9",
+          "partNbr": "QZS-12-A016",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "xyz90-1",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "5KJA-1A2-91",
+          "location": "--",
+          "partDescription": "THIS IS A TEST DESC 10",
+          "partNbr": "5KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+      ]
+    }
+    showBody={true}
+    showCheckbox={false}
+    showHeader={true}
+    showResults={true}
+  />
+  <div
+    id="parts-search-dropdown"
+  />
+</Fragment>
+`;
+
+exports[`<ManageInventory /> should render properly when isAddingNewPart is true 1`] = `
+<Fragment>
+  <div
+    className="search-container"
+  >
+    <TextInputField
+      className="search"
+      containerRef={null}
+      icon={
+        Object {
+          "className": "icon_search",
+        }
+      }
+      id="filterInput"
+      onChange={[Function]}
+      placeholder="Type to search for a part in inventory"
+      setFocusOnMount={false}
+    />
+    <button
+      className="manage-inv  loader-btn"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+  <Table
+    className=""
+    clearOnHover={false}
+    columns={
+      Array [
+        Object {
+          "key": "partNbr",
+          "name": "Part Number",
+          "tdProps": Object {
+            "paddingLeft": "20px !important",
+          },
+          "thProps": Object {
+            "paddingLeft": "20px !important",
+          },
+        },
+        Object {
+          "key": "partDescription",
+          "name": "Description",
+          "tdProps": Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "30%",
+          },
+          "thProps": Object {
+            "width": "30%",
+          },
+          "useTitle": true,
+        },
+        Object {
+          "key": "brandName",
+          "name": "Brand",
+        },
+        Object {
+          "key": "totalQuantity",
+          "name": "Total",
+        },
+        Object {
+          "key": "allocatedQuantity",
+          "name": "Allocated",
+        },
+        Object {
+          "key": "availableQuantity",
+          "name": "Available",
+        },
+        Object {
+          "key": "location",
+          "name": "Location",
+        },
+        Object {
+          "key": "edit",
+          "name": "Edit",
+        },
+      ]
+    }
+    handleRowClick={[Function]}
+    handleSortClick={[Function]}
+    isAlternating={true}
+    isExpandable={false}
+    rows={
+      Array [
+        Object {
+          "allocatedQuantity": "",
+          "availableQuantity": <TextInputField
+            className="available-quantity input-field  "
+            containerRef={null}
+            id="selectedPartAvailableQuantity"
+            max="99"
+            min="1"
+            onChange={[Function]}
+            setFocusOnMount={false}
+            type="number"
+            value=""
+          />,
+          "brandName": "",
+          "edit": <button
+            className="button tertiary sm"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Save
+          </button>,
+          "key": "Auto Complete",
+          "location": <TextInputField
+            className="location input-field"
+            containerRef={null}
+            id="selectedPartLocation"
+            maxLength={10}
+            onChange={[Function]}
+            setFocusOnMount={false}
+            value=""
+          />,
+          "partDescription": "",
+          "partNbr": <SearchDropdown
+            className="search"
+            columns={
+              Array [
+                Object {
+                  "key": "partNbr",
+                  "name": "Part Number",
+                },
+                Object {
+                  "key": "partDescription",
+                  "name": "Description",
+                  "tdProps": Object {
+                    "overflow": "hidden",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                    "width": "40%",
+                  },
+                  "useTitle": true,
+                },
+                Object {
+                  "key": "brandName",
+                  "name": "Brand",
+                },
+              ]
+            }
+            handleInputChange={[Function]}
+            handleSelectClick={[Function]}
+            parentSelector="tr:first-child td.part-number-col"
+            rows={Array []}
+            searchKey="partNbr"
+            showHeader={false}
+            showResults={true}
+          />,
+          "totalQuantity": "",
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "a1234",
+          "brandNbr": "1111",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A012",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 1",
+          "partNbr": "QZS-12-A012",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "xyz90",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "1KJA-1A2-91",
+          "location": "B7",
+          "partDescription": "THIS IS A TEST DESC 2",
+          "partNbr": "1KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "a1234",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A013",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 3",
+          "partNbr": "QZS-12-A013",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "1234",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "2KJA-1A2-91",
+          "location": "B7",
+          "partDescription": "THIS IS A TEST DESC 4",
+          "partNbr": "2KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "1234",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A014",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 5",
+          "partNbr": "QZS-12-A014",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "1234",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "3KJA-1A2-91",
+          "location": "B7",
+          "partDescription": "THIS IS A TEST DESC 6",
+          "partNbr": "3KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "xyz90",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A015",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 7",
+          "partNbr": "QZS-12-A015",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "xyz90",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "4KJA-1A2-91",
+          "location": "B7",
+          "partDescription": "THIS IS A TEST DESC 8",
+          "partNbr": "4KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 3,
+          "brandName": "1234-1",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "QZS-12-A016",
+          "location": "A6",
+          "partDescription": "THIS IS A TEST DESC 9",
+          "partNbr": "QZS-12-A016",
+          "totalQuantity": 4,
+        },
+        Object {
+          "allocatedQuantity": 1,
+          "availableQuantity": 12,
+          "brandName": "xyz90-1",
+          "edit": <button
+            className="button tertiary sm"
+            onClick={[Function]}
+          >
+            <i
+              className="icon_pencil"
+            />
+          </button>,
+          "key": "5KJA-1A2-91",
+          "location": "--",
+          "partDescription": "THIS IS A TEST DESC 10",
+          "partNbr": "5KJA-1A2-91",
+          "totalQuantity": 13,
+        },
+      ]
+    }
+    showBody={true}
+    showCheckbox={false}
+    showHeader={true}
+    showResults={true}
+  />
+  <div
+    id="parts-search-dropdown"
+  />
+</Fragment>
+`;

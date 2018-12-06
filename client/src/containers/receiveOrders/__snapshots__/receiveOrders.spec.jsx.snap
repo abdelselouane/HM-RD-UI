@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReceiveOrders /> should render properly 1`] = `
+<Fragment>
+  <Table
+    className=""
+    clearOnHover={false}
+    columns={
+      Array [
+        Object {
+          "key": "orderCreatedDate",
+          "name": "Date Created",
+          "orderBy": Object {
+            "className": "",
+            "key": "orderCreatedDate",
+          },
+          "sortable": true,
+        },
+        Object {
+          "key": "purchaseOrderNbr",
+          "name": "Purchase Order #",
+          "orderBy": Object {
+            "className": "",
+            "key": "purchaseOrderNbr",
+          },
+          "sortable": true,
+        },
+        Object {
+          "key": "workOrderNbr",
+          "name": "Work order #",
+          "orderBy": Object {
+            "className": "",
+            "key": "workOrderNbr",
+          },
+          "sortable": true,
+        },
+        Object {
+          "key": "purchaseOrderStatDesc",
+          "name": "Status",
+          "orderBy": Object {
+            "className": "",
+            "key": "purchaseOrderStatDesc",
+          },
+          "sortable": true,
+        },
+        Object {
+          "key": "receive",
+          "name": "Receive",
+        },
+      ]
+    }
+    handleRowClick={[Function]}
+    handleSortClick={[Function]}
+    isAlternating={false}
+    isExpandable={true}
+    rows={
+      Array [
+        Object {
+          "key": "971072952",
+          "locationNbr": "9710",
+          "orderCreatedDate": "2018-06-04",
+          "partsDetails": Array [
+            Object {
+              "brandName": "MAKITA",
+              "brandNbr": 1001,
+              "currentQuantityReceived": 0,
+              "partDescription": "GASKET, TRANSMISSION",
+              "partLocation": "",
+              "partNbr": "310-0101",
+              "partsOrderDetailId": 1,
+              "previousQuantityReceived": 1,
+              "quantityOrdered": 1,
+            },
+            Object {
+              "brandName": "MAKITA",
+              "brandNbr": 1001,
+              "currentQuantityReceived": 0,
+              "partDescription": "GASKET, TRANSMISSION-2",
+              "partLocation": "",
+              "partNbr": "310-0102",
+              "partsOrderDetailId": 2,
+              "previousQuantityReceived": 1,
+              "quantityOrdered": 10,
+            },
+          ],
+          "partsOrderId": 1,
+          "purchaseOrderNbr": "971072952",
+          "purchaseOrderStatDesc": "SUBMITTED",
+          "receive": <button
+            className="button md"
+            id="0-971072952"
+            onClick={[Function]}
+            style={
+              Object {
+                "margin": "10px 0px",
+              }
+            }
+          >
+            Receive Order
+          </button>,
+          "workOrderNbr": "mock#",
+        },
+      ]
+    }
+    showBody={true}
+    showCheckbox={false}
+    showHeader={true}
+    showResults={true}
+  />
+</Fragment>
+`;
+
+exports[`<ReceiveOrders /> should render properly with selectedParts in state  1`] = `
+<Fragment>
+  <Table
+    className=""
+    clearOnHover={false}
+    columns={
+      Array [
+        Object {
+          "key": "orderCreatedDate",
+          "name": "Date Created",
+          "orderBy": Object {
+            "className": "",
+            "key": "orderCreatedDate",
+          },
+          "sortable": true,
+        },
+        Object {
+          "key": "purchaseOrderNbr",
+          "name": "Purchase Order #",
+          "orderBy": Object {
+            "className": "",
+            "key": "purchaseOrderNbr",
+          },
+          "sortable": true,
+        },
+        Object {
+          "key": "workOrderNbr",
+          "name": "Work order #",
+          "orderBy": Object {
+            "className": "",
+            "key": "workOrderNbr",
+          },
+          "sortable": true,
+        },
+        Object {
+          "key": "purchaseOrderStatDesc",
+          "name": "Status",
+          "orderBy": Object {
+            "className": "",
+            "key": "purchaseOrderStatDesc",
+          },
+          "sortable": true,
+        },
+        Object {
+          "key": "receive",
+          "name": "Receive",
+        },
+      ]
+    }
+    handleRowClick={[Function]}
+    handleSortClick={[Function]}
+    isAlternating={false}
+    isExpandable={true}
+    rows={
+      Array [
+        Object {
+          "key": "971072952",
+          "locationNbr": "9710",
+          "orderCreatedDate": "2018-06-04",
+          "partsDetails": Array [
+            Object {
+              "brandName": "MAKITA",
+              "brandNbr": 1001,
+              "currentQuantityReceived": 0,
+              "partDescription": "GASKET, TRANSMISSION",
+              "partLocation": "",
+              "partNbr": "310-0101",
+              "partsOrderDetailId": 1,
+              "previousQuantityReceived": 1,
+              "quantityOrdered": 1,
+            },
+            Object {
+              "brandName": "MAKITA",
+              "brandNbr": 1001,
+              "currentQuantityReceived": 0,
+              "partDescription": "GASKET, TRANSMISSION-2",
+              "partLocation": "",
+              "partNbr": "310-0102",
+              "partsOrderDetailId": 2,
+              "previousQuantityReceived": 1,
+              "quantityOrdered": 10,
+            },
+          ],
+          "partsOrderId": 1,
+          "purchaseOrderNbr": "971072952",
+          "purchaseOrderStatDesc": "SUBMITTED",
+          "receive": <button
+            className="button md"
+            id="0-971072952"
+            onClick={[Function]}
+            style={
+              Object {
+                "margin": "10px 0px",
+              }
+            }
+          >
+            Receive Order
+          </button>,
+          "workOrderNbr": "mock#",
+        },
+      ]
+    }
+    showBody={true}
+    showCheckbox={false}
+    showHeader={true}
+    showResults={true}
+  />
+</Fragment>
+`;

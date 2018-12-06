@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> should render properly 1`] = `
+.c0 {
+  width: 100px;
+}
+
+.c0 .counter-decrement,
+.c0 .counter-increment {
+  width: 30px;
+}
+
+<Styled(Counter)
+  handleChangeValue={[MockFunction]}
+  name="mockCounter"
+>
+  <Counter
+    className="c0"
+    handleChangeValue={[MockFunction]}
+    max={10}
+    min={1}
+    name="mockCounter"
+    value={1}
+  >
+    <div
+      className="counter-wrapper"
+    >
+      <button
+        className="counter-decrement"
+        disabled={true}
+        id="mockcounter-dec"
+        onClick={[Function]}
+      />
+      <input
+        className="counter-value"
+        id="mockcounter-qty"
+        onChange={[Function]}
+        type="number"
+        value="01"
+      />
+      <button
+        className="counter-increment"
+        disabled={false}
+        id="mockcounter-inc"
+        onClick={[Function]}
+      />
+    </div>
+  </Counter>
+</Styled(Counter)>
+`;

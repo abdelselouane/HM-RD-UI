@@ -1,0 +1,10 @@
+.tile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  height: 100%;
+  width: 90%;
+
+  @include clearFocusOutline;
+}

@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailsCard /> should render properly 1`] = `
+<styled.div
+  className="card"
+>
+  <div
+    className="card-toolbar"
+  >
+    <styled.span
+      className="card-title"
+    >
+      <h2>
+        Purchase Order #971070001
+      </h2>
+      <span>
+        Status: submitted
+      </span>
+    </styled.span>
+  </div>
+  <div
+    className="card-content"
+  >
+    <styled.div
+      className="part-details"
+      key="abc-123"
+    >
+      <styled.div
+        flex="0.4"
+        key="partDescription"
+      >
+        mockDescription3
+      </styled.div>
+      <styled.div
+        flex="0.2"
+        key="brandName"
+      >
+        <styled.div>
+          Brand
+        </styled.div>
+        mockbrand
+      </styled.div>
+      <styled.div
+        flex="0.2"
+        key="partNbr"
+      >
+        <styled.div>
+          Part Number
+        </styled.div>
+        abc-123
+      </styled.div>
+      <styled.div
+        flex="0.2"
+        key="quantity"
+      >
+        <styled.div>
+          Quantity
+        </styled.div>
+        1
+      </styled.div>
+    </styled.div>
+    <styled.div
+      className="part-details"
+      key="cba-321"
+    >
+      <styled.div
+        flex="0.4"
+        key="partDescription"
+      >
+        mockDescription4
+      </styled.div>
+      <styled.div
+        flex="0.2"
+        key="brandName"
+      >
+        <styled.div>
+          Brand
+        </styled.div>
+        mockbrand
+      </styled.div>
+      <styled.div
+        flex="0.2"
+        key="partNbr"
+      >
+        <styled.div>
+          Part Number
+        </styled.div>
+        cba-321
+      </styled.div>
+      <styled.div
+        flex="0.2"
+        key="quantity"
+      >
+        <styled.div>
+          Quantity
+        </styled.div>
+        2
+      </styled.div>
+    </styled.div>
+  </div>
+</styled.div>
+`;
+
+exports[`<DetailsCard /> should render styles properly 1`] = `
+.c0 {
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+.c0 .card-content {
+  padding: 0px 25px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<DetailsCard /> should render styles properly 2`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<DetailsCard /> should render styles properly 3`] = `
+.c0 {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<DetailsCard /> should render styles properly 4`] = `
+.c0 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: solid #666 1px;
+  padding-bottom: 15px;
+}
+
+.c0 h2 {
+  display: inline-block;
+  color: #f96302;
+  font-weight: 900;
+  padding-right: 25px;
+}
+
+.c0 span {
+  text-transform: capitalize;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<DetailsCard /> should render styles properly 5`] = `
+.c0 {
+  font-weight: 700;
+  color: #666;
+}
+
+<div
+  className="c0"
+/>
+`;

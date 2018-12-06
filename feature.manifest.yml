@@ -1,0 +1,30 @@
+---
+applications:
+- name: RepairDepot-UI-0.2.0
+  memory: 512M
+  disk_quota: 1G
+  instances: 1
+  command: node app.js
+  buildpack: nodejs_buildpack
+  routes:
+    - route: repairs-feature.apps-np.homedepot.com
+
+  env:
+    config:
+      '{
+        "projectInfo":{
+          "appName":"RepairDepot-UI",
+          "routes":[{"route":"repairs-feature.apps-np.homedepot.com"}],
+          "memory":"512M",
+          "disk_quota":"1G",
+          "instances":1,
+          "env":"nonprod"
+        },
+        "ssoUrl":"https://webapps-qa.homedepot.com/MYTHDPassport/rs/identity",
+        "dapperUrl":"https://dapper.apps.homedepot.com/users/",
+        "authUrl":"",
+        "partsServiceUrl":"https://partsservice-dev.apps-np.homedepot.com/partsservice/v1",
+        "partsOrdersUrl":"https://partsorder-dev.apps-np.homedepot.com/partsorder/v1",
+        "partsFinderUrl":"https://thdqa.fidelitonebtb.com/rms/ems",
+        "partsInventoryUrl": "https://partsinventory-dev.apps-np.homedepot.com/partsinventory/v1"
+      }'

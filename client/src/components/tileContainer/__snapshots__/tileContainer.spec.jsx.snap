@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TileContainer /> should render properly 1`] = `
+<div
+  className="tile-container container"
+  onKeyDown={[Function]}
+  onKeyPress={[Function]}
+  role="presentation"
+  tabIndex={0}
+>
+  <Tile
+    className="order-parts tile-active"
+    handleMouseEnter={[Function]}
+    handleTileFunction={[MockFunction]}
+    icon="tool-wrench"
+    index={0}
+    key="order-parts"
+    title="Order Parts"
+  />
+  <Tile
+    className="order-history "
+    handleMouseEnter={[Function]}
+    handleTileFunction={[MockFunction]}
+    icon="assignment"
+    index={1}
+    key="order-history"
+    title="Purchase Order History"
+  />
+  <Tile
+    className="parts-search "
+    handleMouseEnter={[Function]}
+    handleTileFunction={[MockFunction]}
+    icon="search"
+    index={2}
+    key="parts-search"
+    title="Parts Finder"
+  />
+  <Tile
+    className="inventory "
+    handleMouseEnter={[Function]}
+    handleTileFunction={[MockFunction]}
+    icon="note-list"
+    index={3}
+    key="inventory"
+    title="Inventory"
+  />
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tile /> should render the tableRow 1`] = `
+<div
+  className="card repair-tile mock-class"
+  onClick={[MockFunction]}
+  onMouseEnter={[Function]}
+  tabIndex={0}
+>
+  <div
+    className="card-toolbar"
+  >
+    <span
+      className="card-title"
+    >
+      <h2>
+        Mock Tile
+      </h2>
+    </span>
+  </div>
+  <div
+    className="card-content"
+  >
+    <i
+      className="icon_mock-icon"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumbs /> should render properly 1`] = `
+<styled.div
+  className="breadcrumb-nav"
+>
+  <Link
+    className="breadcrumb"
+    id="home"
+    to="/home"
+  >
+    Home
+  </Link>
+  <span
+    className="breadcrumb"
+  >
+    Order History
+  </span>
+</styled.div>
+`;
+
+exports[`<Breadcrumbs /> should render styles properly 1`] = `
+.c0 {
+  grid-area: cmess;
+}
+
+.c0 .breadcrumb {
+  font-size: 16px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Breadcrumbs /> should render styles properly 2`] = `
+.c0 {
+  grid-area: cmess;
+}
+
+.c0 .breadcrumb {
+  font-size: 16px;
+}
+
+<div
+  className="c0"
+/>
+`;

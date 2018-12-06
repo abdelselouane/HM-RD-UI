@@ -1,0 +1,8 @@
+/**
+ *  Removes the outline on an element when focused
+**/
+@mixin clearFocusOutline {
+  &:focus {
+    outline: none;
+  }
+}

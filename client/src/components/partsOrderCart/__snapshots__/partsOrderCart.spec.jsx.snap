@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PartsOrderCart /> should render properly 1`] = `
+<div
+  className="order-parts-right parts-order-cart"
+>
+  <div
+    className="cart-header-title"
+  >
+    <h2>
+      Parts Cart
+    </h2>
+  </div>
+  <div
+    className="cart-content"
+  />
+  <button
+    className="submit-order loader-btn primary"
+    disabled={false}
+    indeterminate="true"
+    onClick={[MockFunction]}
+  >
+    Place Order
+  </button>
+</div>
+`;

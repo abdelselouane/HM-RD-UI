@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render properly 1`] = `
+.c0 {
+  z-index: 3;
+}
+
+.c0 .header-info .product-info {
+  font-size: 1.5em;
+}
+
+.c0 .header-logo.go-to-homepage {
+  cursor: pointer;
+}
+
+<Header
+  handleAdminClick={[MockFunction]}
+  handleLogoClick={[MockFunction]}
+  handleLogoutClick={[MockFunction]}
+  showActions={false}
+  userProfile={null}
+>
+  <styled.div
+    className="header"
+  >
+    <div
+      className="header c0"
+    >
+      <div
+        className="header-logo"
+      >
+        <i
+          className="icon_homedepot"
+        />
+      </div>
+      <div
+        className="header-info"
+      >
+        <label
+          className="product-info"
+        >
+          Repair Depot
+        </label>
+      </div>
+      <div
+        className="header-search"
+      />
+      <div
+        className="header-actions"
+      />
+    </div>
+  </styled.div>
+</Header>
+`;
+
+exports[`<Header /> should render properly 2`] = `
+.c0 {
+  z-index: 3;
+}
+
+.c0 .header-info .product-info {
+  font-size: 1.5em;
+}
+
+.c0 .header-logo.go-to-homepage {
+  cursor: pointer;
+}
+
+<Header
+  handleAdminClick={[MockFunction]}
+  handleLogoClick={[MockFunction]}
+  handleLogoutClick={[MockFunction]}
+  showActions={true}
+  userProfile={
+    Object {
+      "full_name": "test user",
+      "groups": Array [
+        Object {
+          "cn": "Repair Depot Admin",
+          "dn": "cn=Repair Depot Admin, ou=st9100, o=homedepot.com, c=US",
+        },
+      ],
+      "id": "testLDAP",
+    }
+  }
+>
+  <styled.div
+    className="header"
+  >
+    <div
+      className="header c0"
+    >
+      <div
+        className="header-logo go-to-homepage"
+        onClick={[MockFunction]}
+      >
+        <i
+          className="icon_homedepot"
+        />
+      </div>
+      <div
+        className="header-info"
+      >
+        <label
+          className="product-info"
+        >
+          Repair Depot
+        </label>
+      </div>
+      <div
+        className="header-search"
+      />
+      <div
+        className="header-actions"
+      >
+        <div
+          className="admin-btn"
+          onClick={[MockFunction]}
+        >
+          <i
+            className="icon_laptop"
+          />
+          Admin
+        </div>
+        <div
+          className="username"
+        >
+          <i
+            className="icon_person"
+          />
+          testLDAP
+        </div>
+        <div
+          className="logout-btn"
+          onClick={[MockFunction]}
+        >
+          <i
+            className="icon_exit_to_app"
+          />
+          Logout
+        </div>
+      </div>
+    </div>
+  </styled.div>
+</Header>
+`;
+
+exports[`<Header /> should render properly 3`] = `
+.c0 {
+  z-index: 3;
+}
+
+.c0 .header-info .product-info {
+  font-size: 1.5em;
+}
+
+.c0 .header-logo.go-to-homepage {
+  cursor: pointer;
+}
+
+<Header
+  handleAdminClick={[MockFunction]}
+  handleLogoClick={[MockFunction]}
+  handleLogoutClick={[MockFunction]}
+  showActions={true}
+  showAdmin={true}
+  userProfile={
+    Object {
+      "full_name": "test user",
+      "groups": Array [
+        Object {
+          "cn": "Repair Depot Admin",
+          "dn": "cn=Repair Depot Admin, ou=st9100, o=homedepot.com, c=US",
+        },
+      ],
+      "id": "testLDAP",
+    }
+  }
+>
+  <styled.div
+    className="header"
+  >
+    <div
+      className="header c0"
+    >
+      <div
+        className="header-logo go-to-homepage"
+        onClick={[MockFunction]}
+      >
+        <i
+          className="icon_homedepot"
+        />
+      </div>
+      <div
+        className="header-info"
+      >
+        <label
+          className="product-info"
+        >
+          Repair Depot
+        </label>
+      </div>
+      <div
+        className="header-search"
+      />
+      <div
+        className="header-actions"
+      >
+        <div
+          className="admin-btn"
+          onClick={[MockFunction]}
+        >
+          <i
+            className="icon_laptop"
+          />
+          Admin
+        </div>
+        <div
+          className="username"
+        >
+          <i
+            className="icon_person"
+          />
+          testLDAP
+        </div>
+        <div
+          className="logout-btn"
+          onClick={[MockFunction]}
+        >
+          <i
+            className="icon_exit_to_app"
+          />
+          Logout
+        </div>
+      </div>
+    </div>
+  </styled.div>
+</Header>
+`;

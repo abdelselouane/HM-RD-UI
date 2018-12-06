@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderParts /> should render properly 1`] = `
+<Fragment>
+  <Connect(withContext(Page))
+    animateLayout={true}
+    className="order-parts"
+    showHomeNav={true}
+  >
+    <styled.div>
+      <SearchResults
+        cart={Array []}
+        handleInputChange={[Function]}
+        handleSelectedPart={[Function]}
+        isLoading={false}
+        results={Array []}
+      />
+      <ContextProvider
+        value={
+          Object {
+            "handleAdjustQuantity": [Function],
+            "handleRemoveFromCart": [Function],
+          }
+        }
+      >
+        <PartsOrderCart
+          cart={Array []}
+          disableSubmit={true}
+          submitOrder={[Function]}
+        />
+      </ContextProvider>
+    </styled.div>
+  </Connect(withContext(Page))>
+</Fragment>
+`;
+
+exports[`<OrderParts /> should render styles properly 1`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<OrderParts /> should render styles properly 2`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+}
+
+<div
+  className="c0"
+/>
+`;

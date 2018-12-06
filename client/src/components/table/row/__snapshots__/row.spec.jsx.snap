@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row /> should render styles properly 1`] = `
+<td
+  className=""
+/>
+`;
+
+exports[`<Row /> should render styles properly 2`] = `
+.c0 {
+  color: #000 !important;
+}
+
+<td
+  className="c0"
+/>
+`;
+
+exports[`<Row /> should render the tableRow 1`] = `
+<tr
+  onClick={[Function]}
+>
+  <td
+    className="checkbox-col"
+  >
+    <div
+      aria-checked="false"
+      aria-disabled="true"
+      role="checkbox"
+    />
+  </td>
+  <styled.td
+    className="part-number-col"
+    disableRow={true}
+    key="ab-1234-part-number"
+    tdProps={
+      Object {
+        "fontStyle": "italic",
+      }
+    }
+  >
+    ab-1234
+  </styled.td>
+  <styled.td
+    className="expand-button-col"
+    disableRow={true}
+    key="ab-1234-"
+    tdProps={
+      Object {
+        "fontStyle": "italic",
+      }
+    }
+  />
+</tr>
+`;

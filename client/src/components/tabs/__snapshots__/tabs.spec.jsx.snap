@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> should render properly 1`] = `
+<div
+  className="mock-tabs tabs"
+>
+  <div
+    role="tablist"
+  >
+    <span
+      aria-selected={false}
+      id="mock-tab-1-tab"
+      key="mock-tab-1"
+      onClick={[Function]}
+      role="tab"
+      tabIndex="-1"
+    >
+      Mock Tab 1
+    </span>
+    <span
+      aria-selected={true}
+      id="mock-tab-2-tab"
+      key="mock-tab-2"
+      onClick={[Function]}
+      role="tab"
+      tabIndex="0"
+    >
+      Mock Tab 2
+    </span>
+    <span
+      aria-selected={false}
+      id="mock-tab-3-tab"
+      key="mock-tab-3"
+      onClick={[Function]}
+      role="tab"
+      tabIndex="-1"
+    >
+      Mock Tab 3
+    </span>
+  </div>
+  <div
+    className="mock-tab-2 tabpanel"
+    hidden={false}
+    key="mock-tab-2"
+    role="tabpanel"
+  >
+    <component />
+  </div>
+</div>
+`;

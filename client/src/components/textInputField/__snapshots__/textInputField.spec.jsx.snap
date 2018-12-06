@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextInputField /> should render properly 1`] = `
+<div
+  className="text-input-container mock-class-name"
+>
+  <input
+    className="mock-class-name"
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`<TextInputField /> should render properly 2`] = `
+<div
+  className="text-input-container mock-class-name"
+>
+  <input
+    className="mock-class-name"
+    onChange={[Function]}
+    type="text"
+  />
+  <i
+    className="mock_icon"
+  />
+</div>
+`;

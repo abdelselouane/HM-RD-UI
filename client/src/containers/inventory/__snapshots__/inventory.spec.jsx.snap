@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Inventory /> should render properly 1`] = `
+<Connect(withContext(Page))
+  className="inventory"
+>
+  <styled.div>
+    <Tabs
+      className="inventory-tabs"
+      defaultTab="on-hand-inventory"
+      tabs={
+        Array [
+          Object {
+            "component": [Function],
+            "displayName": "On Hand Inventory",
+            "id": "on-hand-inventory",
+          },
+          Object {
+            "component": [Function],
+            "displayName": "Receive Purchase Orders",
+            "id": "receive-purchase-orders",
+          },
+        ]
+      }
+    />
+  </styled.div>
+</Connect(withContext(Page))>
+`;
+
+exports[`<Inventory /> should render styles properly 1`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  height: 100%;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.c0 .inventory-tabs {
+  height: 100%;
+}
+
+.c0 .tabs span:focus {
+  outline: none !important;
+}
+
+.c0 .tabs span[role=tab]:first-child {
+  border-left: none;
+}
+
+.c0 [role=tabpanel] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 95%;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+
+.c0 [role=tabpanel] .text-input-container.search {
+  margin: 15px 15px;
+  width: 65%;
+}
+
+.c0 [role=tabpanel] .text-input-container.search.dropdown {
+  width: 75%;
+  margin: 15px 0px;
+}
+
+.c0 .search-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 .search-container button {
+  -webkit-flex: 0.15;
+  -ms-flex: 0.15;
+  flex: 0.15;
+}
+
+.c0 .text-input-container .input-field {
+  margin-top: 0em;
+}
+
+.c0 .edit-col .button {
+  margin: 0px;
+}
+
+.c0 .text-input-container.search {
+  -webkit-flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.5;
+}
+
+.c0 .text-input-container.search input {
+  margin-top: -6px;
+}
+
+.c0 .text-input-container.search .icon_search {
+  bottom: 0;
+  font-size: 30px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Inventory /> should render styles properly 2`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  height: 100%;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.c0 .inventory-tabs {
+  height: 100%;
+}
+
+.c0 .tabs span:focus {
+  outline: none !important;
+}
+
+.c0 .tabs span[role=tab]:first-child {
+  border-left: none;
+}
+
+.c0 [role=tabpanel] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 95%;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+
+.c0 [role=tabpanel] .text-input-container.search {
+  margin: 15px 15px;
+  width: 65%;
+}
+
+.c0 [role=tabpanel] .text-input-container.search.dropdown {
+  width: 75%;
+  margin: 15px 0px;
+}
+
+.c0 .search-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 .search-container button {
+  -webkit-flex: 0.15;
+  -ms-flex: 0.15;
+  flex: 0.15;
+}
+
+.c0 .text-input-container .input-field {
+  margin-top: 0em;
+}
+
+.c0 .edit-col .button {
+  margin: 0px;
+}
+
+.c0 .text-input-container.search {
+  -webkit-flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.5;
+}
+
+.c0 .text-input-container.search input {
+  margin-top: -6px;
+}
+
+.c0 .text-input-container.search .icon_search {
+  bottom: 0;
+  font-size: 30px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+<div
+  className="c0"
+/>
+`;

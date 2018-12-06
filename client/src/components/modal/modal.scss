@@ -1,0 +1,173 @@
+.modal-container {
+  align-items: center;
+  background-color: rgba(68, 68, 68, 0.62);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+
+  .modal.card {
+    opacity: 1;
+    padding: 0px;
+    visibility: visible;
+    width: 50em;
+  }
+
+  .card-toolbar {
+    align-items: center;
+    
+    .icon_close {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-weight: 900;
+    }
+    
+    &.success {
+      background: $green;
+      color: $white;
+
+      i {
+        color: $white!important;
+      }
+    }
+
+    &.info {
+      background: $blue;
+      color: $white;
+      
+      i {
+        color: $white!important;
+      }
+
+      i.icon_information-outlined {
+        font-size: 30px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+    
+    &.failure {
+      background: $red;
+      color: $white;
+
+      i {
+        color: $white!important;
+      }
+    }
+    
+    &.warning {
+      background: $yellow;
+      color: $black17;
+
+      i {
+        color: $black17!important;
+      }
+    }
+
+    i {
+      font-size: 2.5em;
+      margin-left: 0px;
+      margin-right: 10px;
+      cursor: auto;
+    }
+  }
+
+  .card-toolbar,
+  .card-content,
+  .card-footer {
+    padding: 0px 20px;
+  }
+
+  .card-toolbar {
+    padding-bottom: 20px;
+  }
+
+  .card-toolbar {
+    padding-top: 20px;
+  }
+
+  .card-footer {
+    padding-bottom: 40px;
+  }
+
+  .card-content .text {
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 6.5%;
+  }
+
+  .card-content .body .body-title{
+    padding-left: 0;
+    margin-top: -40px;
+  }
+
+  .card-content .body .input-field{
+    margin-top: 0;
+  }
+
+  .card .card-actions {
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-content.failure .text {
+    padding-left: 3%;
+  }
+
+  .card-footer.buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+    .button {
+      flex: 0.4;
+    }
+  }
+
+  .button.green,
+  .button.green:hover,
+  .button.green:active  {
+    background-color: $black12!important;
+    color: $green!important;
+  }
+  
+  .button.green-primary,
+  .button.green-primary:hover,
+  .button.green-primary:active {
+    background-color: $green!important;
+    color: $white!important;
+  }
+
+  .button.grey,
+  .button.grey:hover,
+  .button.grey:active  {
+    background-color: $black12!important;
+    color: $black17!important;
+  }
+
+  .button.red,
+  .button.red:hover,
+  .button.red:active  {
+    background-color: $black12!important;
+    color: $red!important;
+  }
+  
+  .button.yellow-primary,
+  .button.yellow-primary:hover,
+  .button.yellow-primary:active {
+    background-color: $yellow!important;
+    color: $black17!important;
+  }
+
+  .button.red-primary,
+  .button.red-primary:hover,
+  .button.red-primary:active {
+    background-color: $red!important;
+    color: $white!important;
+  }
+}

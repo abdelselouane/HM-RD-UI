@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should render properly 1`] = `
+<Fragment>
+  <styled.table
+    className="standard-table table-header "
+    clearOnHover={false}
+    isAlternating={true}
+    isExpandable={false}
+    numColumns={1}
+  >
+    <thead>
+      <tr>
+        <styled.th
+          className="mock-column-col sortable ascending"
+          key="mock-column"
+          onClick={[Function]}
+          thProps={Object {}}
+        >
+          Mock Column
+        </styled.th>
+      </tr>
+    </thead>
+  </styled.table>
+  <div
+    className="scrollable-table"
+    style={Object {}}
+  >
+    <styled.table
+      className="standard-table table-body  alternating-rows"
+      clearOnHover={false}
+      isAlternating={true}
+      isExpandable={false}
+      numColumns={1}
+    >
+      <tbody>
+        <TableRow
+          columns={
+            Array [
+              Object {
+                "key": "mockColumn",
+                "name": "Mock Column",
+                "orderBy": Object {
+                  "className": "ascending",
+                  "key": "mockColumn",
+                },
+                "sortable": true,
+              },
+            ]
+          }
+          key="row abc-1234"
+          onClick={[MockFunction]}
+          row={
+            Object {
+              "key": "abc-1234",
+              "mockColumn": "abc-1234",
+              "selected": false,
+            }
+          }
+          showCheckbox={false}
+        />
+      </tbody>
+    </styled.table>
+  </div>
+</Fragment>
+`;
+
+exports[`<Table /> should render properly 2`] = `
+<Fragment>
+  <styled.table
+    className="standard-table table-header "
+    clearOnHover={false}
+    isAlternating={false}
+    isExpandable={false}
+    numColumns={1}
+  >
+    <thead>
+      <tr>
+        <styled.th
+          className="mock-column-col sortable ascending"
+          key="mock-column"
+          onClick={[Function]}
+          thProps={Object {}}
+        >
+          Mock Column
+        </styled.th>
+      </tr>
+    </thead>
+  </styled.table>
+  <div
+    className="scrollable-table"
+    style={Object {}}
+  >
+    <styled.table
+      className="standard-table table-body  "
+      clearOnHover={false}
+      isAlternating={false}
+      isExpandable={false}
+      numColumns={1}
+    >
+      <tbody>
+        <TableRow
+          columns={
+            Array [
+              Object {
+                "key": "mockColumn",
+                "name": "Mock Column",
+                "orderBy": Object {
+                  "className": "ascending",
+                  "key": "mockColumn",
+                },
+                "sortable": true,
+              },
+            ]
+          }
+          key="row abc-1234"
+          onClick={[MockFunction]}
+          row={
+            Object {
+              "key": "abc-1234",
+              "mockColumn": "abc-1234",
+              "selected": false,
+            }
+          }
+          showCheckbox={false}
+        />
+      </tbody>
+    </styled.table>
+  </div>
+</Fragment>
+`;
+
+exports[`<Table /> should render properly 3`] = `
+<Fragment>
+  <styled.table
+    className="standard-table table-header "
+    clearOnHover={false}
+    isAlternating={false}
+    isExpandable={true}
+    numColumns={1}
+  >
+    <thead>
+      <tr>
+        <styled.th
+          className="mock-column-col sortable ascending"
+          key="mock-column"
+          onClick={[Function]}
+          thProps={Object {}}
+        >
+          Mock Column
+        </styled.th>
+      </tr>
+    </thead>
+  </styled.table>
+  <div
+    className="scrollable-table"
+    style={Object {}}
+  >
+    <styled.table
+      className="standard-table table-body  "
+      clearOnHover={false}
+      isAlternating={false}
+      isExpandable={true}
+      numColumns={1}
+    >
+      <tbody>
+        <TableRow
+          columns={
+            Array [
+              Object {
+                "key": "mockColumn",
+                "name": "Mock Column",
+                "orderBy": Object {
+                  "className": "ascending",
+                  "key": "mockColumn",
+                },
+                "sortable": true,
+              },
+            ]
+          }
+          onClick={[MockFunction]}
+          row={
+            Object {
+              "key": "abc-1234",
+              "mockColumn": "abc-1234",
+              "selected": false,
+            }
+          }
+          showCheckbox={false}
+        />
+        <tr
+          id="expandable-abc-1234"
+        />
+      </tbody>
+    </styled.table>
+  </div>
+</Fragment>
+`;
+
+exports[`<Table /> should render styles properly 1`] = `
+.c0 {
+  background-color: unset !important;
+}
+
+<table
+  className="c0"
+/>
+`;
+
+exports[`<Table /> should render styles properly 2`] = `
+<th
+  className=""
+/>
+`;
+
+exports[`<Table /> should render styles properly 3`] = `
+<th
+  className=""
+/>
+`;

@@ -1,0 +1,9 @@
+[git-together]
+	domain = homedepot.com
+[git-together "authors"]
+	ds = "Daniel Swain; daniel_swain1"
+	sn = "Sudhakar Narayanan; sudhakar_badri_narayanan"
+	sk = "Shobana Kondalsamy; shobana_kondalsamy"
+	as = "Abdel Selouane; abdeladim_selouane"
+	vg = "Vigneshwaran Ganesan; vigneshwaran_ganesan"
+  rv = "Ramesh Venkatesh; ramesh_venkatesh"

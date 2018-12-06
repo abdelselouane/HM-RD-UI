@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderDetails /> should render properly for 2 Purchase Orders 1`] = `
+<Connect(withContext(Page))
+  className="order-details"
+  showReturn={true}
+>
+  <styled.div>
+    <styled.div
+      className="title"
+    >
+      <h2>
+        Order #2 Details
+      </h2>
+      <span>
+        Submitted Dec 02, 1970
+      </span>
+    </styled.div>
+    <styled.div>
+      <DetailsCard
+        key="971070001"
+        parts={
+          Array [
+            Object {
+              "brandName": "mockbrand",
+              "partDescription": "mockDescription3",
+              "partNbr": "abc-123",
+              "quantity": 1,
+            },
+            Object {
+              "brandName": "mockbrand",
+              "partDescription": "mockDescription4",
+              "partNbr": "cba-321",
+              "quantity": 2,
+            },
+          ]
+        }
+        purchaseOrderNbr="971070001"
+        purchaseOrderStatDesc="SUBMITTED"
+      />
+      <DetailsCard
+        key="971070002"
+        parts={
+          Array [
+            Object {
+              "brandName": "brandy",
+              "partDescription": "mockDescription1",
+              "partNbr": "01-23456",
+              "quantity": 4,
+            },
+            Object {
+              "brandName": "brandy",
+              "partDescription": "mockDescription2",
+              "partNbr": "01-09897",
+              "quantity": 2,
+            },
+          ]
+        }
+        purchaseOrderNbr="971070002"
+        purchaseOrderStatDesc="SUBMITTED"
+      />
+    </styled.div>
+  </styled.div>
+</Connect(withContext(Page))>
+`;
+
+exports[`<OrderDetails /> should render properly for a single Purchase Order 1`] = `
+<Connect(withContext(Page))
+  className="order-details"
+  showReturn={true}
+>
+  <styled.div>
+    <styled.div
+      className="title"
+    >
+      <h2>
+        Order #2 Details
+      </h2>
+      <span>
+        Submitted Dec 02, 1970
+      </span>
+    </styled.div>
+    <styled.div>
+      <DetailsCard
+        key="971070001"
+        parts={
+          Array [
+            Object {
+              "brandName": "mockbrand",
+              "partDescription": "mockDescription3",
+              "partNbr": "abc-123",
+              "quantity": 1,
+            },
+            Object {
+              "brandName": "mockbrand",
+              "partDescription": "mockDescription4",
+              "partNbr": "cba-321",
+              "quantity": 2,
+            },
+          ]
+        }
+        purchaseOrderNbr="971070001"
+        purchaseOrderStatDesc="SUBMITTED"
+      />
+      <DetailsCard
+        key="971070002"
+        parts={
+          Array [
+            Object {
+              "brandName": "brandy",
+              "partDescription": "mockDescription1",
+              "partNbr": "01-23456",
+              "quantity": 4,
+            },
+            Object {
+              "brandName": "brandy",
+              "partDescription": "mockDescription2",
+              "partNbr": "01-09897",
+              "quantity": 2,
+            },
+          ]
+        }
+        purchaseOrderNbr="971070002"
+        purchaseOrderStatDesc="SUBMITTED"
+      />
+    </styled.div>
+  </styled.div>
+</Connect(withContext(Page))>
+`;
+
+exports[`<OrderDetails /> should render properly if order is null 1`] = `
+<Connect(withContext(Page))
+  className="order-details"
+  showReturn={true}
+>
+  <styled.div>
+    <div
+      className="no-results"
+    >
+      Order Request not found
+    </div>
+  </styled.div>
+</Connect(withContext(Page))>
+`;
+
+exports[`<OrderDetails /> should render properly when partsDetails is not defined 1`] = `
+<Connect(withContext(Page))
+  className="order-details"
+  showReturn={true}
+>
+  <styled.div>
+    <styled.div
+      className="title"
+    >
+      <h2>
+        Order #2 Details
+      </h2>
+      <span>
+        Submitted Dec 02, 1970
+      </span>
+    </styled.div>
+    <styled.div />
+  </styled.div>
+</Connect(withContext(Page))>
+`;
+
+exports[`<OrderDetails /> should render styles properly 1`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<OrderDetails /> should render styles properly 2`] = `
+.c0 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 50px;
+  margin: 0px;
+  margin-bottom: 30px;
+  padding: 0px 20px;
+  width: 100%;
+}
+
+.c0 h2 {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<OrderDetails /> should render styles properly 3`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding-top: 20px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;

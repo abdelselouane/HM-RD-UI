@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartItem /> should render properly 1`] = `
+<div
+  className="cart-item"
+>
+  <div
+    className="part-info"
+  >
+    <h3
+      className="part-desc"
+    >
+      & mockDescription
+    </h3>
+    <span
+      className="part-nbr"
+    >
+      mockPartNumber
+    </span>
+  </div>
+  <div
+    className="qty-counter counter-input sm"
+  >
+    <span
+      className="qty-label"
+      htmlFor="mockPartNumber-qty"
+    >
+      Qty
+    </span>
+    <Styled(Counter)
+      handleChangeValue={[MockFunction]}
+      name="mockPartNumber"
+      readOnly={true}
+      value={1}
+    />
+  </div>
+  <div
+    className="remove-btn"
+    onClick={[Function]}
+  >
+    <span>
+      Remove
+    </span>
+    <i
+      className="icon_trash"
+    />
+  </div>
+</div>
+`;

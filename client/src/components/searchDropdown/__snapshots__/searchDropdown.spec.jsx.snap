@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchDropdown /> should render properly 1`] = `
+<Fragment>
+  <TextInputField
+    className="mock-classname dropdown input-field"
+    containerRef={
+      Object {
+        "current": Object {
+          "contains": [MockFunction],
+          "focus": [MockFunction],
+        },
+      }
+    }
+    icon={
+      Object {
+        "className": "icon_search",
+      }
+    }
+    id="mockData"
+    onChange={[Function]}
+    onFocus={[Function]}
+    setFocusOnMount={true}
+  />
+</Fragment>
+`;
+
+exports[`<SearchDropdown /> should render properly 2`] = `
+.c0 {
+  display: block;
+  width: 700px;
+  position: absolute;
+  top: 70%;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+  z-index: 5;
+}
+
+.c0 .scrollable-table {
+  overflow-y: hidden;
+}
+
+.c0 .standard-table tbody tr td {
+  background-color: !important;
+}
+
+.c0 .standard-table tbody tr:hover td {
+  background-color: !important;
+}
+
+.c0 .table-body.alternating-rows {
+  width: 100%;
+}
+
+.c0 .table-body.alternating-rows tr:hover td,
+.c0 .table-body.alternating-rows tr:focus td {
+  background-color: !important;
+}
+
+.c0 .table-body.alternating-rows tr td {
+  border: none;
+}
+
+<div
+  className="c0"
+>
+  <Table
+    className=""
+    clearOnHover={false}
+    columns={
+      Array [
+        Object {
+          "key": "mockData",
+          "name": "Mock Data",
+        },
+      ]
+    }
+    handleInputChange={[MockFunction]}
+    handleRowClick={[Function]}
+    handleSelectClick={[MockFunction]}
+    handleSortClick={[Function]}
+    isAlternating={true}
+    isExpandable={false}
+    rows={
+      Array [
+        Object {
+          "key": "mockValue",
+          "mockData": <span
+            title="mockValue"
+          >
+            <strong>
+              
+            </strong>
+            mockValue
+          </span>,
+        },
+      ]
+    }
+    showBody={true}
+    showCheckbox={false}
+    showHeader={false}
+    showResults={false}
+  />
+</div>
+`;
+
+exports[`<SearchDropdown /> should render styles properly 1`] = `
+.c0 {
+  display: block;
+  width: 700px;
+  position: absolute;
+  top: 70%;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+  z-index: 5;
+}
+
+.c0 .scrollable-table {
+  overflow-y: hidden;
+}
+
+.c0 .standard-table tbody tr td {
+  background-color: !important;
+}
+
+.c0 .standard-table tbody tr:hover td {
+  background-color: !important;
+}
+
+.c0 .table-body.alternating-rows {
+  width: 100%;
+}
+
+.c0 .table-body.alternating-rows tr:hover td,
+.c0 .table-body.alternating-rows tr:focus td {
+  background-color: !important;
+}
+
+.c0 .table-body.alternating-rows tr td {
+  border: none;
+}
+
+<div
+  className="c0"
+/>
+`;

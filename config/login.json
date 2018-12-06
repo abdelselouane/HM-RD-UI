@@ -1,0 +1,10 @@
+{
+  "body": "<?xml version=\"1.0\" encoding=\"utf-8\" ?><THDLogin><Authentication>asm001</Authentication></THDLogin>",
+  "response": {
+    "header": {
+      "setCookie": " 'sessionID=jp442qr5-y0azskyws8554asb;Version=1;Comment=;Domain=.homedepot.com;Path=/','rssoSessionID=7zfOJmxQjm1YK0CRD4nElfbFikBtascinU7wYrm/uS07u7wTVMx/cadi1jAwZRhO;Version=1;Comment=;Domain=.homedepot.com;Path=/','THDSSO=RCNBWOyx2QuGB26VrRAdU9XfUdSedQNtw6rwJS8m5ct1KGl8HJtu8dkbOwWqZ6HdLi7chV4vDjoJ8sM6haYSNzcNVkA5eLUrtFvTHHZgs3o421aSOiwi4pJyjGNGpJuoXeQvroc8E5UNUTAezBX8nR1XjUuDLHyAzOYAcFheeUAq5UeczJQCb6EhrlEs0dBCdF8yrfXu1JlTlHnwNwKWQjyOthu80kNC7BgZ7emdwmsRGSwCjWrUrrKJZk1CfBMdmWfaMNNYwb66JtkBItpHnUjEgrmmLHjEqc1jqJMt87wbzDYIfzCMDcSZQdcxrcert7rSg3znFx5pbKc6SEEmblHsWuCwK908HyM54IOmFD17UjPLRsDI8sgmiHJgWTev9emWtSeJndPrmGYF3zkgBlzbJRieHEdYtPt9YcxQctG2td88EawtSzvN5pXKm5EXEceZ2jmJlRghc1ZLn4nZvXg47wWYhy01R7pfr0mRa5DSXmWqeGjvNmtD9akUDlDHIIuyGjM5e2FWZXIPY4cpHAk1UHt9ptJFrjCFaYjST28Jie5ImABRnwyyrW2IqzurvyzK26ieXGZt6cmLah3V7pD7SIq7A2yd4eq1PzYex8uhwtxYuXOOeQFOnM3tNhx1y21fZ3GpHLpqv9nWrgV2F1QJ6Pdvgbqdms6UKPf6KeaSmBgDsXRHF9xYJ4AKHjBVbJ8PwSjCvigl1OY1ReYhPda9dzyvACJ6jrMr8wLUn0BoIWI3BnS43OUUGXSnjgE;Version=1;Comment=;Domain=.homedepot.com;Path=/','NSC_mc-qh-rb-w1-nzuieqbttqpsu=ffffffffaf1cbac145525d5f4f58455e445a4a4205f4;path=/' ",
+      "statusCode": 200,
+      "statusMessage": "OK"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.cart-item {
+  display: flex;
+  width: 94%;
+  margin: 0 3%;
+  border-bottom: solid 2px $black12;
+  padding: 1em 0em;
+
+  .part-info {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+
+    .part-desc,
+    .part-nbr {
+      font-size: 20px;
+    }
+  }
+
+  .qty-counter {
+    flex: 0.45;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .qty-label {
+      margin-right: 0.5em;
+      font-weight: 900;
+    }
+  }
+
+  .remove-btn {
+    cursor: pointer;
+    color: $orange;
+    flex: 0.15;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+
+    i.icon_trash {
+      font-size: 1.75em;
+    }
+  }
+}

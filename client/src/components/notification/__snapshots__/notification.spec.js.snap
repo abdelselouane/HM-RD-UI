@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notification /> should render properly 1`] = `
+<div
+  className="banner mock-class open"
+>
+  <span
+    className="message"
+  >
+    mockTitle
+  </span>
+  <span
+    className="close"
+    onClick={[Function]}
+  />
+</div>
+`;

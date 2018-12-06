@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderHistoryList /> should render properly 1`] = `
+<Connect(withContext(Page))
+  className="order-history"
+  showHomeNav={true}
+>
+  <styled.div>
+    <div
+      className="title"
+    >
+      <h2>
+        Order History
+      </h2>
+    </div>
+    <Table
+      className=""
+      clearOnHover={false}
+      columns={
+        Array [
+          Object {
+            "key": "orderCreatedDate",
+            "name": "Date",
+            "tdProps": Object {
+              "paddingLeft": "40px",
+              "width": "15%",
+            },
+            "thProps": Object {
+              "paddingLeft": "40px",
+              "width": "15%",
+            },
+          },
+          Object {
+            "key": "partsOrderId",
+            "name": "Order Number",
+            "tdProps": Object {
+              "width": "15%",
+            },
+            "thProps": Object {
+              "width": "15%",
+            },
+          },
+          Object {
+            "key": "orderDesc",
+            "name": "Order Description",
+            "tdProps": Object {
+              "overflow": "hidden",
+              "textOverflow": "ellipsis",
+              "whiteSpace": "nowrap",
+            },
+            "useTitle": true,
+          },
+          Object {
+            "key": "workOrderNbr",
+            "name": "Work Order Number",
+            "tdProps": Object {
+              "width": "20%",
+            },
+            "thProps": Object {
+              "width": "20%",
+            },
+          },
+        ]
+      }
+      handleRowClick={[Function]}
+      handleSortClick={[Function]}
+      isAlternating={true}
+      isExpandable={false}
+      rows={
+        Array [
+          Object {
+            "key": 2,
+            "orderCreatedDate": "Dec 02, 1970",
+            "orderDesc": "mockDescription3",
+            "partsOrderId": 2,
+            "workOrderNbr": <em>
+              Not Provided
+            </em>,
+          },
+          Object {
+            "key": 1,
+            "orderCreatedDate": "Dec 01, 1970",
+            "orderDesc": "mockDescription1, mockDescription2",
+            "partsOrderId": 1,
+            "workOrderNbr": "123456789",
+          },
+        ]
+      }
+      showBody={true}
+      showCheckbox={false}
+      showHeader={true}
+      showResults={true}
+    />
+  </styled.div>
+</Connect(withContext(Page))>
+`;
+
+exports[`<OrderHistoryList /> should render styles properly 1`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 .title {
+  padding: 0px 20px;
+}
+
+.c0 .order-history-header {
+  margin: 0px;
+}
+
+.c0 .order-history-header thead tr {
+  margin-left: 1em;
+}
+
+.c0 .order-history-header thead tr th {
+  border: none;
+  font-size: 18px;
+}
+
+.c0 .order-history-header thead tr th:first-child {
+  padding-left: 20px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<OrderHistoryList /> should render styles properly 2`] = `
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: carea;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.24);
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 .title {
+  padding: 0px 20px;
+}
+
+.c0 .order-history-header {
+  margin: 0px;
+}
+
+.c0 .order-history-header thead tr {
+  margin-left: 1em;
+}
+
+.c0 .order-history-header thead tr th {
+  border: none;
+  font-size: 18px;
+}
+
+.c0 .order-history-header thead tr th:first-child {
+  padding-left: 20px;
+}
+
+<div
+  className="c0"
+/>
+`;

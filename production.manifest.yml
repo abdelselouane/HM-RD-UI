@@ -1,0 +1,36 @@
+---
+applications:
+- name: RepairDepot-UI
+  memory: 512M
+  disk_quota: 1G
+  instances: 2
+  command: node app.js
+  buildpack: nodejs_buildpack
+  routes:
+    - route: repairs.apps.homedepot.com
+  services:
+    - newrelic_repairdepotui
+  env:
+    NEW_RELIC_PROXY_URL: tcp://thd-svr-proxy.homedepot.com:9191
+    config:
+      '{
+        "projectInfo":{
+          "appName":"RepairDepot-UI",
+          "routes":[
+            {
+              "route":"repairs.apps.homedepot.com"
+            }
+          ],
+          "memory":"512M",
+          "disk_quota":"1G",
+          "instances":2,
+          "env":"prod"
+        },
+        "ssoUrl":"https://webapps.homedepot.com/MYTHDPassport/rs/identity",
+        "dapperUrl":"https://dapper.apps.homedepot.com/users/",
+        "authUrl":"",
+        "partsServiceUrl":"https://partsservice.apps.homedepot.com/partsservice/v1",
+        "partsOrdersUrl":"https://partsorder.apps.homedepot.com/partsorder/v1",
+        "partsFinderUrl":"https://thd.fidelitonebtb.com/rms/ems",
+        "partsInventoryUrl": "https://partsinventory.apps.homedepot.com/partsinventory/v1"
+      }'
